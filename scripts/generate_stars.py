@@ -2,13 +2,12 @@
 # -*- coding: utf-8 -*-
 """
 自動抓取 GitHub 標記星號儲存庫並產生結構化分類 README.md
-具備高相容性 HTML 錨點跳轉與一鍵返回目錄導覽
+具備高相容性 HTML 錨點跳轉與新專案多維度加權智慧自動分類
 """
 
 import os
 import sys
 import json
-import re
 import urllib.request
 import urllib.error
 from datetime import datetime
@@ -24,7 +23,7 @@ if sys.platform == "win32":
 USERNAME = "yangyws"
 OUTPUT_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "README.md")
 
-# 分類對照與專案自訂繁中說明字典 (包含精確錨點 ID)
+# 分類對照、專案自訂說明與豐富關鍵字庫
 CATEGORY_DEFINITIONS = [
     {
         "id": "handheld-gaming-emulators",
@@ -34,7 +33,11 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "handheld-launchers",
                 "name": "掌機系統與前端啟動器 (Launchers & Frontends)",
-                "keywords": ["launcher", "frontend", "romm", "daijishou", "retro", "station"],
+                "keywords": [
+                    "launcher", "frontend", "romm", "daijishou", "retro", "station", 
+                    "es-de", "emulationstation", "pegasus", "homemenu", "homebrew", 
+                    "gamehub", "handheld launcher", "game launcher", "rom manager"
+                ],
                 "repos": {
                     "rommapp/romm": "美觀且功能強大的自託管 ROM 遊戲庫管理與串流遊玩系統",
                     "rommapp/argosy-launcher": "RomM 原生 Android 用戶端，支援行動裝置同步、安裝與啟動遊戲",
@@ -54,7 +57,11 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "emulators",
                 "name": "開源模擬器專案 (Emulators)",
-                "keywords": ["emulator", "ps4", "3ds", "cemu", "rpcs3", "drastic", "armsx"],
+                "keywords": [
+                    "emulator", "emulation", "ps4", "ps3", "ps2", "3ds", "cemu", "rpcs3", 
+                    "drastic", "armsx", "citra", "yuzu", "ryujinx", "dolphin", "vita3k", 
+                    "retroarch", "mame", "gameboy", "gba", "switch emulator", "nes", "snes"
+                ],
                 "repos": {
                     "shadps4-emu/shadPS4": "適用於 Windows、Linux、macOS 的 PlayStation 4 開源模擬器 (C++)",
                     "weihuoya/citra": "經典任天堂 3DS 開源模擬器 Android / PC 分支",
@@ -72,7 +79,11 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "tweaks-and-mods",
                 "name": "硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)",
-                "keywords": ["tweak", "mod", "dlss", "frequency", "pserver", "switch", "hekate"],
+                "keywords": [
+                    "tweak", "mod", "patch", "dlss", "frequency", "pserver", "switch", 
+                    "hekate", "atmosphere", "overclock", "thermal", "fps", "lossless-scaling", 
+                    "texture", "cheats", "hd-texture", "60fps", "governor", "sysfs"
+                ],
                 "repos": {
                     "keiretrogaming/pulse": "Android 掌機 CPU/GPU 頻率調節工具（免 Root / PServer 調校）",
                     "stormpanda/megingiard": "Android 掌機效能與驅動增強輔助模組",
@@ -97,7 +108,10 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "windows-compatibility",
                 "name": "Windows 轉譯與相容層 (Windows on ARM & Compatibility)",
-                "keywords": ["winlator", "compatibility", "wine", "box64", "gamenative"],
+                "keywords": [
+                    "winlator", "compatibility", "wine", "box64", "box86", "fex", 
+                    "proton", "gamenative", "hangover", "mobox", "directx", "vulkan", "dxvk"
+                ],
                 "repos": {
                     "WinNative-Emu/WinNative": "Android 平台上直接執行 Windows 遊戲之原生環境工具",
                     "utkarshdalal/GameNative": "Android 上原生執行 Steam、Epic、GOG 等 PC 遊戲的啟動與相容層",
@@ -109,7 +123,10 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "controllers-and-peripherals",
                 "name": "控制器與遊戲輸入周邊 (Controllers & Peripherals)",
-                "keywords": ["controller", "gamepad", "rp2040", "input", "joystick"],
+                "keywords": [
+                    "controller", "gamepad", "joystick", "rp2040", "input", "remap", 
+                    "dualsense", "steam controller", "arcade", "stick", "d-pad", "xinput", "hid"
+                ],
                 "repos": {
                     "ddeverill/SteamlessController": "讓 2026 Steam Controller 與各類手把在非 Steam 環境中完美對應支援",
                     "awalol/DS5Dongle": "將 Raspberry Pi Pico 2 W 轉為 DualSense 5 藍牙無線接收器",
@@ -128,7 +145,7 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "moonlight-and-sunshine",
                 "name": "Moonlight & Sunshine 生態系",
-                "keywords": ["moonlight", "sunshine", "gamestream"],
+                "keywords": ["moonlight", "sunshine", "gamestream", "nvstream", "geforce-stream"],
                 "repos": {
                     "Axixi2233/Sunshine": "自託管遊戲串流伺服端 Sunshine 社群最佳化版本",
                     "Axixi2233/moonlight-qt": "Moonlight PC 端 (Windows/Mac/Linux) 增強自訂版",
@@ -141,7 +158,10 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "console-and-cloud-streaming",
                 "name": "PlayStation / Xbox / 雲端串流",
-                "keywords": ["peasyo", "xstreaming", "remote play", "psplay", "opennow", "vr"],
+                "keywords": [
+                    "peasyo", "xstreaming", "remote play", "remote-play", "psplay", "chiaki", 
+                    "greenlight", "xbplay", "opennow", "cloud gaming", "geforce now", "alvr", "vr-stream"
+                ],
                 "repos": {
                     "Geocld/PeaSyo-rs": "高效能 Android PlayStation 遠端遊玩用戶端 (Rust 核心)",
                     "Geocld/PeaSyo": "次世代開源 Android PlayStation 遠端串流用戶端",
@@ -157,7 +177,10 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "remote-desktop-and-control",
                 "name": "跨裝置控制與桌面協作 (Remote Desktop & Control)",
-                "keywords": ["remote desktop", "scrcpy", "rustdesk", "deskflow", "kvm"],
+                "keywords": [
+                    "remote desktop", "scrcpy", "rustdesk", "deskflow", "synergy", 
+                    "barrier", "kvm", "rdp", "vnc", "anydesk", "teamviewer"
+                ],
                 "repos": {
                     "Genymobile/scrcpy": "透過 USB / TCP-IP 投射與控制 Android 裝置螢幕（低延遲、高解析度）",
                     "rustdesk/rustdesk": "開源全平台遠端桌面連線工具，支援自建伺服器",
@@ -174,7 +197,10 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "ai-agents-and-harness",
                 "name": "AI 代理與 Harness 框架 (Agents & Harness)",
-                "keywords": ["agent", "harness", "assistant", "bot", "claw"],
+                "keywords": [
+                    "agent", "agents", "harness", "assistant", "bot", "claw", "openclaw", 
+                    "autogen", "crewai", "langchain", "chatbot", "claude-code", "cursor", "codex", "mcp"
+                ],
                 "repos": {
                     "affaan-m/ECC": "AI Agent 執行環境效能最佳化系統，賦予 Claude Code / Cursor 技能與長效記憶",
                     "NousResearch/hermes-agent": "Nous Research 開源自主 AI 代理系統 (Hermes Agent)",
@@ -190,7 +216,10 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "token-optimization-and-skills",
                 "name": "Token 優化、程式碼圖譜與 Skills",
-                "keywords": ["token", "codegraph", "prompt", "skill", "diagram"],
+                "keywords": [
+                    "token", "tokens", "codegraph", "prompt", "prompts", "skill", 
+                    "skills", "diagram", "context", "compress", "compression"
+                ],
                 "repos": {
                     "colbymchenry/codegraph": "預先索引程式碼知識圖譜，為 Claude Code / AntiGravity 大幅節省 Token 與工具呼叫",
                     "headroomlabs-ai/headroom": "在工具輸出、日誌與 RAG 輸入前智慧壓縮內容，節省 20%~95% Token 消耗",
@@ -206,7 +235,10 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "edge-ai-and-local-inference",
                 "name": "邊緣 AI 與本地模型推論 (Edge AI & Local Inference)",
-                "keywords": ["mlx", "local", "edge", "tiny", "inference", "moe"],
+                "keywords": [
+                    "mlx", "local", "edge", "tiny", "inference", "moe", "llama.cpp", 
+                    "ollama", "vllm", "quantization", "gguf", "npu", "on-device", "coreml"
+                ],
                 "repos": {
                     "leonickson1/Swiftlet": "在 Apple 裝置上透過 SSD 串流專家權重執行 35B/80B MoE 模型的 Swift/Metal 執行階段",
                     "jundot/omlx": "支援連續批次處理 (Continuous Batching) 的 Apple Silicon 高速 LLM 推論伺服器",
@@ -221,7 +253,10 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "doc-scraping-and-intelligence",
                 "name": "文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)",
-                "keywords": ["scraper", "crawler", "document", "vision", "tutor", "monitor"],
+                "keywords": [
+                    "scraper", "scraping", "crawler", "crawl", "document", "pdf", 
+                    "ocr", "vision", "tutor", "monitor", "rag", "embedding", "vector", "osint", "3d-globe"
+                ],
                 "repos": {
                     "unclecode/crawl4ai": "專為 LLM 打造的高速開源網頁爬蟲與資訊萃取框架 (Crawl4AI)",
                     "microsoft/markitdown": "微軟開源多格式文件 (Office/PDF) 轉換為 Markdown 工具",
@@ -243,7 +278,10 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "os-optimizer-and-debloat",
                 "name": "作業系統優化與瘦身 (OS Optimizer & Debloat)",
-                "keywords": ["optimizer", "debloat", "cleaner", "container"],
+                "keywords": [
+                    "optimizer", "optimization", "debloat", "debloater", "cleaner", 
+                    "cleanup", "privacy", "tweaker", "container", "sysprep", "windows-11"
+                ],
                 "repos": {
                     "itsfatduck/optimizerDuck": "免費開源 Windows 深度優化、隱私強化與系統清理工具",
                     "thedogecraft/sparkle": "精緻現代的 Windows 瘦身與系統加速應用程式",
@@ -255,7 +293,10 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "productivity-tools",
                 "name": "實用周邊與日常生產力工具 (Productivity Tools)",
-                "keywords": ["cable", "streamdeck", "tiles", "line", "hfs", "shopee"],
+                "keywords": [
+                    "cable", "streamdeck", "stream-deck", "logi", "tiles", "line", 
+                    "hfs", "shopee", "bark", "notification", "obtainium", "font", "clipboard", "widget"
+                ],
                 "repos": {
                     "darrylmorley/whatcable": "macOS 狀態列小工具，插上 USB-C 即時顯示該線材真實傳輸速率與充電規格",
                     "timothycrosley/streamdeck-ui": "Linux 系統相容之 Elgato Stream Deck 控制軟體",
@@ -274,7 +315,10 @@ CATEGORY_DEFINITIONS = [
             {
                 "id": "embedded-and-iot",
                 "name": "嵌入式硬體與韌體工具 (Embedded & IoT)",
-                "keywords": ["esp32", "esp8266", "firmware", "tasmota", "esptool", "iot"],
+                "keywords": [
+                    "esp32", "esp8266", "firmware", "tasmota", "esptool", "iot", 
+                    "arduino", "stm32", "raspberry", "micropython", "flasher"
+                ],
                 "repos": {
                     "arendst/Tasmota": "經典 ESP8266 與 ESP32 開源物聯網替代韌體 (支援 MQTT/Home Assistant)",
                     "espressif/esptool": "樂鑫官方 ESP8266 / ESP32 晶片序列埠燒錄與韌體管理工具"
@@ -318,11 +362,53 @@ def fetch_starred_repos(username):
     return all_repos
 
 
+def classify_repo_automatically(repo, category_definitions):
+    """
+    依據新專案的 topics, name, description 計算加權分數，自動歸類至最合適的子分類
+    """
+    name = repo.get("name", "").lower()
+    full_name = repo.get("full_name", "").lower()
+    desc = (repo.get("description") or "").lower()
+    topics = [t.lower() for t in repo.get("topics", [])]
+    text_corpus = f"{name} {full_name} {desc} {' '.join(topics)}"
+
+    best_subcat = None
+    best_score = 0
+
+    for cat in category_definitions:
+        for subcat in cat["subcategories"]:
+            score = 0
+            keywords = subcat.get("keywords", [])
+            for kw in keywords:
+                kw_lower = kw.lower()
+                # 1. 專案標籤 (Topics) 精確命中：權重最高 (+4)
+                if kw_lower in topics:
+                    score += 4
+                # 2. 儲存庫名稱命中 (+3)
+                if kw_lower in name or kw_lower in full_name:
+                    score += 3
+                # 3. 專案說明命中 (+2)
+                if kw_lower in desc:
+                    score += 2
+                elif kw_lower in text_corpus:
+                    score += 1
+
+            if score > best_score:
+                best_score = score
+                best_subcat = (cat["id"], subcat["id"])
+
+    # 若加權得分大於等於 2 分，視為顯著匹配
+    if best_score >= 2:
+        return best_subcat
+    return None
+
+
 def categorize_repos(repos):
     repo_map = {r["full_name"]: r for r in repos}
     classified = set()
     category_results = []
 
+    # 1. 初始化結構與載入已知精選專案
     for cat in CATEGORY_DEFINITIONS:
         cat_data = {
             "id": cat["id"],
@@ -336,7 +422,6 @@ def categorize_repos(repos):
                 "name": subcat["name"],
                 "repos": []
             }
-            # 優先放入字典中明確定義的 repo
             for repo_name, custom_desc in subcat["repos"].items():
                 if repo_name in repo_map:
                     r = repo_map[repo_name]
@@ -351,15 +436,43 @@ def categorize_repos(repos):
             cat_data["subcategories"].append(subcat_data)
         category_results.append(cat_data)
 
-    # 處理未在清單中的新專案（依關鍵字或自動歸入其他）
+    # 2. 智慧自動判斷：針對未來新加入的 Starred 專案進行加權分類
     unclassified_repos = [r for r in repos if r["full_name"] not in classified]
-    if unclassified_repos:
+    unresolved_repos = []
+
+    for r in unclassified_repos:
+        matched = classify_repo_automatically(r, CATEGORY_DEFINITIONS)
+        if matched:
+            target_cat_id, target_subcat_id = matched
+            placed = False
+            for cat_data in category_results:
+                if cat_data["id"] == target_cat_id:
+                    for subcat_data in cat_data["subcategories"]:
+                        if subcat_data["id"] == target_subcat_id:
+                            desc = r.get("description") or "暫無描述"
+                            subcat_data["repos"].append({
+                                "full_name": r["full_name"],
+                                "url": r["html_url"],
+                                "language": r.get("language") or "無",
+                                "stars": r.get("stargazers_count", 0),
+                                "description": desc
+                            })
+                            classified.add(r["full_name"])
+                            placed = True
+                            break
+                    if placed:
+                        break
+        else:
+            unresolved_repos.append(r)
+
+    # 3. 若完全無法判定（特徵詞完全未命中），放入獨立的最近新增區塊
+    if unresolved_repos:
         misc_subcat = {
             "id": "recently-starred",
             "name": "✨ 最近新增收藏 (Recently Starred)",
             "repos": []
         }
-        for r in unclassified_repos:
+        for r in unresolved_repos:
             desc = r.get("description") or "暫無描述"
             misc_subcat["repos"].append({
                 "full_name": r["full_name"],
@@ -383,7 +496,7 @@ def generate_readme(category_results, total_count, username):
         "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)",
         "",
         f"> 本儲存庫為 **@{username}** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。",
-        "> 透過 GitHub Actions 定期自動排程更新，保持最新收藏狀態。",
+        "> 內建多維度特徵演算法，新加星號自動智慧識別分類，並透過 GitHub Actions 定期自動排程更新。",
         "",
         "---",
         "",
@@ -436,8 +549,9 @@ def generate_readme(category_results, total_count, username):
         "## ⚙️ 自動化同步機制",
         "",
         "本儲存庫透過 `.github/workflows/update-stars.yml` 設定 GitHub Actions：",
-        "* **排程更新**：每日午夜定時觸發執行，抓取最新 Starred 清單。",
-        "* **手動觸發**：支援在 GitHub Actions 頁面隨時手動點擊「Run workflow」即時同步。",
+        "* **智慧自動歸類**：每次同步時，系統會自動分析新標記星號專案的 Topics 標籤、專案描述與名稱關鍵字，自動匹配到最適合的分類中。",
+        "* **排程定時更新**：每日午夜定時觸發執行，抓取最新 Starred 清單。",
+        "* **手動即時觸發**：支援在 GitHub Actions 頁面隨時手動點擊「Run workflow」即時同步。",
         "",
         "[⬆ 回到目錄導覽](#toc)",
         "",

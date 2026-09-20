@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
-> 透過 GitHub Actions 定期自動排程更新，保持最新收藏狀態。
+> 內建多維度特徵演算法，新加星號自動智慧識別分類，並透過 GitHub Actions 定期自動排程更新。
 
 ---
 
@@ -308,8 +308,9 @@
 ## ⚙️ 自動化同步機制
 
 本儲存庫透過 `.github/workflows/update-stars.yml` 設定 GitHub Actions：
-* **排程更新**：每日午夜定時觸發執行，抓取最新 Starred 清單。
-* **手動觸發**：支援在 GitHub Actions 頁面隨時手動點擊「Run workflow」即時同步。
+* **智慧自動歸類**：每次同步時，系統會自動分析新標記星號專案的 Topics 標籤、專案描述與名稱關鍵字，自動匹配到最適合的分類中。
+* **排程定時更新**：每日午夜定時觸發執行，抓取最新 Starred 清單。
+* **手動即時觸發**：支援在 GitHub Actions 頁面隨時手動點擊「Run workflow」即時同步。
 
 [⬆ 回到目錄導覽](#toc)
 
