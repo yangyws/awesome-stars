@@ -2,11 +2,13 @@
 # -*- coding: utf-8 -*-
 """
 自動抓取 GitHub 標記星號儲存庫並產生結構化分類 README.md
+具備高相容性 HTML 錨點跳轉與一鍵返回目錄導覽
 """
 
 import os
 import sys
 import json
+import re
 import urllib.request
 import urllib.error
 from datetime import datetime
@@ -22,13 +24,15 @@ if sys.platform == "win32":
 USERNAME = "yangyws"
 OUTPUT_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "README.md")
 
-# 分類對照與專案自訂繁中說明字典
+# 分類對照與專案自訂繁中說明字典 (包含精確錨點 ID)
 CATEGORY_DEFINITIONS = [
     {
+        "id": "handheld-gaming-emulators",
         "name": "🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)",
         "desc": "涵蓋 Android 掌機 (AYN Thor / Odin)、SteamOS、各主機開源模擬器、雙螢幕補丁與 CPU/GPU 頻率調校工具。",
         "subcategories": [
             {
+                "id": "handheld-launchers",
                 "name": "掌機系統與前端啟動器 (Launchers & Frontends)",
                 "keywords": ["launcher", "frontend", "romm", "daijishou", "retro", "station"],
                 "repos": {
@@ -48,6 +52,7 @@ CATEGORY_DEFINITIONS = [
                 }
             },
             {
+                "id": "emulators",
                 "name": "開源模擬器專案 (Emulators)",
                 "keywords": ["emulator", "ps4", "3ds", "cemu", "rpcs3", "drastic", "armsx"],
                 "repos": {
@@ -65,6 +70,7 @@ CATEGORY_DEFINITIONS = [
                 }
             },
             {
+                "id": "tweaks-and-mods",
                 "name": "硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)",
                 "keywords": ["tweak", "mod", "dlss", "frequency", "pserver", "switch", "hekate"],
                 "repos": {
@@ -89,6 +95,7 @@ CATEGORY_DEFINITIONS = [
                 }
             },
             {
+                "id": "windows-compatibility",
                 "name": "Windows 轉譯與相容層 (Windows on ARM & Compatibility)",
                 "keywords": ["winlator", "compatibility", "wine", "box64", "gamenative"],
                 "repos": {
@@ -100,6 +107,7 @@ CATEGORY_DEFINITIONS = [
                 }
             },
             {
+                "id": "controllers-and-peripherals",
                 "name": "控制器與遊戲輸入周邊 (Controllers & Peripherals)",
                 "keywords": ["controller", "gamepad", "rp2040", "input", "joystick"],
                 "repos": {
@@ -113,10 +121,12 @@ CATEGORY_DEFINITIONS = [
         ]
     },
     {
+        "id": "streaming-and-remote-control",
         "name": "📡 串流、遠端遙控與跨裝置協作 (Streaming & Remote Control)",
         "desc": "包含 Moonlight/Sunshine 高畫質低延遲串流、PlayStation/Xbox 遙控串流用戶端，以及 scrcpy、RustDesk 跨裝置遙控。",
         "subcategories": [
             {
+                "id": "moonlight-and-sunshine",
                 "name": "Moonlight & Sunshine 生態系",
                 "keywords": ["moonlight", "sunshine", "gamestream"],
                 "repos": {
@@ -129,6 +139,7 @@ CATEGORY_DEFINITIONS = [
                 }
             },
             {
+                "id": "console-and-cloud-streaming",
                 "name": "PlayStation / Xbox / 雲端串流",
                 "keywords": ["peasyo", "xstreaming", "remote play", "psplay", "opennow", "vr"],
                 "repos": {
@@ -144,6 +155,7 @@ CATEGORY_DEFINITIONS = [
                 }
             },
             {
+                "id": "remote-desktop-and-control",
                 "name": "跨裝置控制與桌面協作 (Remote Desktop & Control)",
                 "keywords": ["remote desktop", "scrcpy", "rustdesk", "deskflow", "kvm"],
                 "repos": {
@@ -155,10 +167,12 @@ CATEGORY_DEFINITIONS = [
         ]
     },
     {
+        "id": "ai-agents-and-llm-devtools",
         "name": "🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)",
         "desc": "涵蓋自主 AI Agent 框架、Claude Code / Codex 擴展能力、邊緣裝置小模型推論與網頁/文件爬蟲解析。",
         "subcategories": [
             {
+                "id": "ai-agents-and-harness",
                 "name": "AI 代理與 Harness 框架 (Agents & Harness)",
                 "keywords": ["agent", "harness", "assistant", "bot", "claw"],
                 "repos": {
@@ -174,6 +188,7 @@ CATEGORY_DEFINITIONS = [
                 }
             },
             {
+                "id": "token-optimization-and-skills",
                 "name": "Token 優化、程式碼圖譜與 Skills",
                 "keywords": ["token", "codegraph", "prompt", "skill", "diagram"],
                 "repos": {
@@ -189,6 +204,7 @@ CATEGORY_DEFINITIONS = [
                 }
             },
             {
+                "id": "edge-ai-and-local-inference",
                 "name": "邊緣 AI 與本地模型推論 (Edge AI & Local Inference)",
                 "keywords": ["mlx", "local", "edge", "tiny", "inference", "moe"],
                 "repos": {
@@ -203,6 +219,7 @@ CATEGORY_DEFINITIONS = [
                 }
             },
             {
+                "id": "doc-scraping-and-intelligence",
                 "name": "文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)",
                 "keywords": ["scraper", "crawler", "document", "vision", "tutor", "monitor"],
                 "repos": {
@@ -219,10 +236,12 @@ CATEGORY_DEFINITIONS = [
         ]
     },
     {
+        "id": "system-utilities-and-iot",
         "name": "🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)",
         "desc": "涵蓋 Windows / Mac 系統瘦身調校、StreamDeck/Logitech 桌面周邊輔助、以及 ESP32 物聯網韌體。",
         "subcategories": [
             {
+                "id": "os-optimizer-and-debloat",
                 "name": "作業系統優化與瘦身 (OS Optimizer & Debloat)",
                 "keywords": ["optimizer", "debloat", "cleaner", "container"],
                 "repos": {
@@ -234,6 +253,7 @@ CATEGORY_DEFINITIONS = [
                 }
             },
             {
+                "id": "productivity-tools",
                 "name": "實用周邊與日常生產力工具 (Productivity Tools)",
                 "keywords": ["cable", "streamdeck", "tiles", "line", "hfs", "shopee"],
                 "repos": {
@@ -252,6 +272,7 @@ CATEGORY_DEFINITIONS = [
                 }
             },
             {
+                "id": "embedded-and-iot",
                 "name": "嵌入式硬體與韌體工具 (Embedded & IoT)",
                 "keywords": ["esp32", "esp8266", "firmware", "tasmota", "esptool", "iot"],
                 "repos": {
@@ -304,12 +325,14 @@ def categorize_repos(repos):
 
     for cat in CATEGORY_DEFINITIONS:
         cat_data = {
+            "id": cat["id"],
             "name": cat["name"],
             "desc": cat["desc"],
             "subcategories": []
         }
         for subcat in cat["subcategories"]:
             subcat_data = {
+                "id": subcat["id"],
                 "name": subcat["name"],
                 "repos": []
             }
@@ -332,6 +355,7 @@ def categorize_repos(repos):
     unclassified_repos = [r for r in repos if r["full_name"] not in classified]
     if unclassified_repos:
         misc_subcat = {
+            "id": "recently-starred",
             "name": "✨ 最近新增收藏 (Recently Starred)",
             "repos": []
         }
@@ -363,30 +387,33 @@ def generate_readme(category_results, total_count, username):
         "",
         "---",
         "",
-        "## 📑 目錄導覽",
+        '<a id="toc"></a>',
+        "## 📑 目錄導覽 (點擊可直接跳轉)",
         ""
     ]
 
-    # 目錄摘要
+    # 目錄摘要 (使用精準 HTML 錨點超連結)
     for cat in category_results:
         cat_total = sum(len(sub["repos"]) for sub in cat["subcategories"])
-        lines.append(f"- **{cat['name']}** ({cat_total})")
+        lines.append(f"### 📂 [{cat['name']}](#{cat['id']}) ({cat_total})")
         for sub in cat["subcategories"]:
-            lines.append(f"  - [{sub['name']}](#{sub['name'].lower().replace(' ', '-').replace('(', '').replace(')', '')}) ({len(sub['repos'])})")
+            lines.append(f"- [{sub['name']}](#{sub['id']}) `({len(sub['repos'])})`")
+        lines.append("")
 
     lines.extend([
-        "",
         "---",
         ""
     ])
 
     # 詳細清單
     for cat in category_results:
+        lines.append(f'<a id="{cat["id"]}"></a>')
         lines.append(f"## {cat['name']}")
         lines.append(f"*{cat['desc']}*")
         lines.append("")
 
         for sub in cat["subcategories"]:
+            lines.append(f'<a id="{sub["id"]}"></a>')
             lines.append(f"### 📌 {sub['name']}")
             lines.append("")
             lines.append("| 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |")
@@ -398,18 +425,25 @@ def generate_readme(category_results, total_count, username):
                 lines.append(f"| [**{r['full_name']}**]({r['url']}) | `{r['language']}` | {stars_formatted} | {desc_cleaned} |")
 
             lines.append("")
+            lines.append("[⬆ 回到目錄導覽](#toc)")
+            lines.append("")
+
         lines.append("---")
         lines.append("")
 
     lines.extend([
+        '<a id="automation"></a>',
         "## ⚙️ 自動化同步機制",
         "",
         "本儲存庫透過 `.github/workflows/update-stars.yml` 設定 GitHub Actions：",
         "* **排程更新**：每日午夜定時觸發執行，抓取最新 Starred 清單。",
         "* **手動觸發**：支援在 GitHub Actions 頁面隨時手動點擊「Run workflow」即時同步。",
         "",
+        "[⬆ 回到目錄導覽](#toc)",
+        "",
         "---",
         "",
+        '<a id="license"></a>',
         "## 📜 授權協議",
         "",
         "本專案架構採用 [MIT License](LICENSE) 授權開源。"
