@@ -1,0 +1,40 @@
+name: 自動更新 GitHub 星號分類清單
+
+on:
+  schedule:
+    # 每天 UTC 00:00 (台灣時間 08:00) 自動執行一次
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 支援手動一鍵點擊觸發
+
+permissions:
+  contents: write
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 簽出儲存庫 (Checkout)
+        uses: actions/checkout@v4
+
+      - name: 設定 Python 環境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 抓取最新星號清單並重新生成 README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/generate_stars.py
+
+      - name: 自動提交並推送更新
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "沒有任何星號變更，跳過提交。"
+          else
+            git commit -m "chore(stars): 自動同步最新標記星號儲存庫 [skip ci]"
+            git push
+          fi
