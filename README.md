@@ -58,7 +58,7 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**shadps4-emu/shadPS4**](https://github.com/shadps4-emu/shadPS4) | `C++` | 32,902 | 適用於 Windows、Linux、macOS 的 PlayStation 4 開源模擬器 (C++) |
+| [**shadps4-emu/shadPS4**](https://github.com/shadps4-emu/shadPS4) | `C++` | 32,901 | 適用於 Windows、Linux、macOS 的 PlayStation 4 開源模擬器 (C++) |
 | [**weihuoya/citra**](https://github.com/weihuoya/citra) | `C++` | 2,748 | 經典任天堂 3DS 開源模擬器 Android / PC 分支 |
 | [**azahar-emu/azahar**](https://github.com/azahar-emu/azahar) | `C++` | 8,173 | 基於 Citra 開發的新一代開源 3DS 模擬器專案 |
 | [**AzaharPlus/AzaharPlus**](https://github.com/AzaharPlus/AzaharPlus) | `C++` | 1,260 | Azahar 3DS 模擬器增強分支，提供更多進階特色功能 |
@@ -160,8 +160,8 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**affaan-m/ECC**](https://github.com/affaan-m/ECC) | `JavaScript` | 263,065 | AI Agent 執行環境效能最佳化系統，賦予 Claude Code / Cursor 技能與長效記憶 |
-| [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) | `Python` | 247,220 | Nous Research 開源自主 AI 代理系統 (Hermes Agent) |
+| [**affaan-m/ECC**](https://github.com/affaan-m/ECC) | `JavaScript` | 263,069 | AI Agent 執行環境效能最佳化系統，賦予 Claude Code / Cursor 技能與長效記憶 |
+| [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) | `Python` | 247,222 | Nous Research 開源自主 AI 代理系統 (Hermes Agent) |
 | [**NousResearch/hermes-plugin-backsearch**](https://github.com/NousResearch/hermes-plugin-backsearch) | `Python` | 63 | Hermes Agent 外掛：提供時間切片歷史新聞搜尋與擷取 |
 | [**AstrBotDevs/AstrBot**](https://github.com/AstrBotDevs/AstrBot) | `Python` | 40,721 | 多平台社群軟體 (Discord/Telegram 等) AI 代理與 LLM 外掛框架 |
 | [**agenvoy/Agenvoy**](https://github.com/agenvoy/Agenvoy) | `Go` | 526 | 單一 Go 執行檔自託管 AI 代理，具備自我修復工具與沙盒測試能力 |
@@ -192,7 +192,7 @@
 | [**jundot/omlx**](https://github.com/jundot/omlx) | `Python` | 21,934 | 支援連續批次處理 (Continuous Batching) 的 Apple Silicon 高速 LLM 推論伺服器 |
 | [**raullenchai/Rapid-MLX**](https://github.com/raullenchai/Rapid-MLX) | `Python` | 3,796 | 專為 Apple Silicon 打造的極速本地 AI 執行引擎 |
 | [**exo-explore/exo**](https://github.com/exo-explore/exo) | `Python` | 47,532 | 在多台日常裝置（Mac/PC/手機）之間分散協同執行前沿 AI 大模型 |
-| [**cactus-compute/needle**](https://github.com/cactus-compute/needle) | `Python` | 11,681 | 專為微型裝置打造的 2-bit (8-29MB) 超輕量自動化基礎模型 |
+| [**cactus-compute/needle**](https://github.com/cactus-compute/needle) | `Python` | 11,683 | 專為微型裝置打造的 2-bit (8-29MB) 超輕量自動化基礎模型 |
 | [**Mininglamp-AI/Mano-P**](https://github.com/Mininglamp-AI/Mano-P) | `無` | 2,774 | 開源邊緣裝置視覺-語言-動作 (GUI-VLA) 操控模型 |
 | [**Edge0-AI/Edge0**](https://github.com/Edge0-AI/Edge0) | `Python` | 2,009 | 邊緣端 AI 自動化與推論架構專案 |
 | [**ornith-ai/Ornith-1**](https://github.com/ornith-ai/Ornith-1) | `無` | 2,056 | 輕量化多模態邊緣推論模型專案 |
@@ -202,13 +202,13 @@
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
 | [**unclecode/crawl4ai**](https://github.com/unclecode/crawl4ai) | `Python` | 83,893 | 專為 LLM 打造的高速開源網頁爬蟲與資訊萃取框架 (Crawl4AI) |
-| [**microsoft/markitdown**](https://github.com/microsoft/markitdown) | `Python` | 185,728 | 微軟開源多格式文件 (Office/PDF) 轉換為 Markdown 工具 |
-| [**docling-project/docling**](https://github.com/docling-project/docling) | `Python` | 67,200 | IBM 開源高精準度文件解析與 GenAI 資料就緒轉換工具 |
+| [**microsoft/markitdown**](https://github.com/microsoft/markitdown) | `Python` | 185,730 | 微軟開源多格式文件 (Office/PDF) 轉換為 Markdown 工具 |
+| [**docling-project/docling**](https://github.com/docling-project/docling) | `Python` | 67,201 | IBM 開源高精準度文件解析與 GenAI 資料就緒轉換工具 |
 | [**img2threejs/img2threejs**](https://github.com/img2threejs/img2threejs) | `Python` | 16,434 | 將參考圖片轉為程序化、可動畫的 Three.js 3D 模型程式碼 |
 | [**roboflow/supervision**](https://github.com/roboflow/supervision) | `Python` | 50,944 | 現代電腦視覺工具庫，支援物件偵測、追蹤與標註視覺化 |
 | [**HKUDS/DeepTutor**](https://github.com/HKUDS/DeepTutor) | `Python` | 40,020 | 香港大學開源終身個人化 AI 家教輔導系統 |
 | [**koala73/worldmonitor**](https://github.com/koala73/worldmonitor) | `TypeScript` | 87,033 | 即時全球地緣與情報監控儀表板 (WorldMonitor) |
-| [**bilawalsidhu/gods-eye-view**](https://github.com/bilawalsidhu/gods-eye-view) | `JavaScript` | 38,751 | 真實開源空間情報與 3D 地球衛星軌跡即時視覺化模擬器 |
+| [**bilawalsidhu/gods-eye-view**](https://github.com/bilawalsidhu/gods-eye-view) | `JavaScript` | 38,752 | 真實開源空間情報與 3D 地球衛星軌跡即時視覺化模擬器 |
 
 ---
 
@@ -223,7 +223,7 @@
 | [**thedogecraft/sparkle**](https://github.com/thedogecraft/sparkle) | `TypeScript` | 2,126 | 精緻現代的 Windows 瘦身與系統加速應用程式 |
 | [**AdventDevInc/kudu**](https://github.com/AdventDevInc/kudu) | `TypeScript` | 3,534 | 跨平台 (Win/Mac/Linux) 開源垃圾清理、快取掃描與安全管理工具 |
 | [**builtbybel/FluentTweaker**](https://github.com/builtbybel/FluentTweaker) | `C#` | 3,499 | 微軟風格 Fluent 介面之 Windows 深度調校輔助工具 |
-| [**apple/container**](https://github.com/apple/container) | `Swift` | 50,070 | Apple 官方開源用於 macOS 上建立與執行 Linux 容器的輕量工具 |
+| [**apple/container**](https://github.com/apple/container) | `Swift` | 50,071 | Apple 官方開源用於 macOS 上建立與執行 Linux 容器的輕量工具 |
 
 ### 📌 實用周邊與日常生產力工具 (Productivity Tools)
 
