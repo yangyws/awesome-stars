@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-123-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-09-20-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-125-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-09-21-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -12,9 +12,10 @@
 <a id="toc"></a>
 ## 📑 目錄導覽 (點擊可直接跳轉)
 
-### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (52)
+### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (54)
+- [✨ 最近新增收藏 (Recently Starred)](#recently-starred) `(1)`
 - [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(13)`
-- [開源模擬器專案 (Emulators)](#emulators) `(11)`
+- [開源模擬器專案 (Emulators)](#emulators) `(12)`
 - [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(18)`
 - [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(5)`
 - [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(5)`
@@ -41,23 +42,32 @@
 ## 🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)
 *涵蓋 Android 掌機 (AYN Thor / Odin)、SteamOS、各主機開源模擬器、雙螢幕補丁與 CPU/GPU 頻率調校工具。*
 
+<a id="recently-starred"></a>
+### 📌 ✨ 最近新增收藏 (Recently Starred)
+
+| 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
+| :--- | :---: | :---: | :--- |
+| [**mupen64plus-ae/mupen64plus-ae**](https://github.com/mupen64plus-ae/mupen64plus-ae) | `C` | 494 | Mupen64Plus Android Edition (AE) is a front end of Mupen64Plus for Android. (Not officially supported by the Mupen64Plus team) |
+
+[⬆ 回到目錄導覽](#toc)
+
 <a id="handheld-launchers"></a>
 ### 📌 掌機系統與前端啟動器 (Launchers & Frontends)
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**rommapp/romm**](https://github.com/rommapp/romm) | `Python` | 13,117 | 美觀且功能強大的自託管 ROM 遊戲庫管理與串流遊玩系統 |
-| [**rommapp/argosy-launcher**](https://github.com/rommapp/argosy-launcher) | `Kotlin` | 582 | RomM 原生 Android 用戶端，支援行動裝置同步、安裝與啟動遊戲 |
+| [**rommapp/romm**](https://github.com/rommapp/romm) | `Python` | 13,125 | 美觀且功能強大的自託管 ROM 遊戲庫管理與串流遊玩系統 |
+| [**rommapp/argosy-launcher**](https://github.com/rommapp/argosy-launcher) | `Kotlin` | 583 | RomM 原生 Android 用戶端，支援行動裝置同步、安裝與啟動遊戲 |
 | [**TapiocaFox/Daijishou**](https://github.com/TapiocaFox/Daijishou) | `Python` | 1,911 | Daijishō 復古遊戲啟動器，整合遊戲庫與封面刮削 |
 | [**JoeCorrell/DualScreen-Launcher**](https://github.com/JoeCorrell/DualScreen-Launcher) | `無` | 25 | 雙螢幕專用 Android 啟動器 APK 發布頁（適用雙螢幕掌機） |
 | [**blacksheepmvp/mjolnir**](https://github.com/blacksheepmvp/mjolnir) | `Kotlin` | 169 | 客製化雙螢幕 Android 桌面啟動器 (Mjolnir) |
-| [**iisu-network/iiSU**](https://github.com/iisu-network/iiSU) | `無` | 2,762 | 視覺導向的 Android 掌機專屬啟動器 |
-| [**inssekt/CocoonFE**](https://github.com/inssekt/CocoonFE) | `Python` | 1,315 | Cocoon 前端啟動器，針對掌機與模擬器打造 |
-| [**misobadev/neostation-frontend**](https://github.com/misobadev/neostation-frontend) | `Dart` | 204 | 跨平台復古模擬遊戲前端系統 (Neostation) |
+| [**iisu-network/iiSU**](https://github.com/iisu-network/iiSU) | `無` | 2,766 | 視覺導向的 Android 掌機專屬啟動器 |
+| [**inssekt/CocoonFE**](https://github.com/inssekt/CocoonFE) | `Python` | 1,316 | Cocoon 前端啟動器，針對掌機與模擬器打造 |
+| [**misobadev/neostation-frontend**](https://github.com/misobadev/neostation-frontend) | `Dart` | 206 | 跨平台復古模擬遊戲前端系統 (Neostation) |
 | [**AverageConsumer/R-Shop**](https://github.com/AverageConsumer/R-Shop) | `Dart` | 50 | 控制器優先的 Android 復古遊戲管理器，支援串接 RomM 與本地/網路來源 |
-| [**armada-os/armada**](https://github.com/armada-os/armada) | `Shell` | 1,530 | 類 SteamOS 風格的 ARM 架構掌機 Linux 發行版 |
+| [**armada-os/armada**](https://github.com/armada-os/armada) | `Shell` | 1,539 | 類 SteamOS 風格的 ARM 架構掌機 Linux 發行版 |
 | [**wang1025475397/Pegasus_GameRomManager**](https://github.com/wang1025475397/Pegasus_GameRomManager) | `無` | 166 | Pegasus 遊戲 ROM 管理工具，支援線上抓取遊戲媒體與封面資訊 |
-| [**retrohrai/Releases**](https://github.com/retrohrai/Releases) | `無` | 326 | RetroHR 發布庫，掌機復古遊戲相關支援套件 |
+| [**retrohrai/Releases**](https://github.com/retrohrai/Releases) | `無` | 327 | RetroHR 發布庫，掌機復古遊戲相關支援套件 |
 | [**JoeCorrell/wemu-release**](https://github.com/JoeCorrell/wemu-release) | `無` | 17 | wemu 掌機模擬與啟動器發布版本 |
 
 [⬆ 回到目錄導覽](#toc)
@@ -67,17 +77,18 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**shadps4-emu/shadPS4**](https://github.com/shadps4-emu/shadPS4) | `C++` | 32,901 | 適用於 Windows、Linux、macOS 的 PlayStation 4 開源模擬器 (C++) |
+| [**shadps4-emu/shadPS4**](https://github.com/shadps4-emu/shadPS4) | `C++` | 32,909 | 適用於 Windows、Linux、macOS 的 PlayStation 4 開源模擬器 (C++) |
 | [**weihuoya/citra**](https://github.com/weihuoya/citra) | `C++` | 2,748 | 經典任天堂 3DS 開源模擬器 Android / PC 分支 |
-| [**azahar-emu/azahar**](https://github.com/azahar-emu/azahar) | `C++` | 8,173 | 基於 Citra 開發的新一代開源 3DS 模擬器專案 |
-| [**AzaharPlus/AzaharPlus**](https://github.com/AzaharPlus/AzaharPlus) | `C++` | 1,260 | Azahar 3DS 模擬器增強分支，提供更多進階特色功能 |
-| [**Medard22/Dolphin-MMJR2-VBI**](https://github.com/Medard22/Dolphin-MMJR2-VBI) | `C++` | 273 | Dolphin MMJR2 分支，新增 VBI 跳過黑客修正與官方同步補丁 |
-| [**SapphireRhodonite/Cemu**](https://github.com/SapphireRhodonite/Cemu) | `C++` | 226 | Wii U 模擬器 Cemu 之 Android 移植版本 |
-| [**SSimco/Cemu**](https://github.com/SSimco/Cemu) | `C++` | 1,192 | Wii U 模擬器 Cemu 之 Android 移植開源專案 |
-| [**R-YaTian/DraStic_rev_i18n**](https://github.com/R-YaTian/DraStic_rev_i18n) | `Smali` | 333 | NDS 模擬器 DraStic 繁中與在地化逆向修正版 |
-| [**ARMSX2/ARMSX2**](https://github.com/ARMSX2/ARMSX2) | `C++` | 1,995 | PlayStation 2 模擬器 ARM64 Android 移植專案 |
-| [**ARMSX2/ARMSX3**](https://github.com/ARMSX2/ARMSX3) | `C++` | 640 | RPCS3 (PS3 模擬器) 之 ARM64 Android 移植專案 |
-| [**rfandango/XenDroid**](https://github.com/rfandango/XenDroid) | `C++` | 419 | XenDroid 模擬器相關核心與執行環境移植 |
+| [**azahar-emu/azahar**](https://github.com/azahar-emu/azahar) | `C++` | 8,179 | 基於 Citra 開發的新一代開源 3DS 模擬器專案 |
+| [**AzaharPlus/AzaharPlus**](https://github.com/AzaharPlus/AzaharPlus) | `C++` | 1,261 | Azahar 3DS 模擬器增強分支，提供更多進階特色功能 |
+| [**Medard22/Dolphin-MMJR2-VBI**](https://github.com/Medard22/Dolphin-MMJR2-VBI) | `C++` | 274 | Dolphin MMJR2 分支，新增 VBI 跳過黑客修正與官方同步補丁 |
+| [**SapphireRhodonite/Cemu**](https://github.com/SapphireRhodonite/Cemu) | `C++` | 227 | Wii U 模擬器 Cemu 之 Android 移植版本 |
+| [**SSimco/Cemu**](https://github.com/SSimco/Cemu) | `C++` | 1,193 | Wii U 模擬器 Cemu 之 Android 移植開源專案 |
+| [**R-YaTian/DraStic_rev_i18n**](https://github.com/R-YaTian/DraStic_rev_i18n) | `Smali` | 334 | NDS 模擬器 DraStic 繁中與在地化逆向修正版 |
+| [**ARMSX2/ARMSX2**](https://github.com/ARMSX2/ARMSX2) | `C++` | 2,006 | PlayStation 2 模擬器 ARM64 Android 移植專案 |
+| [**ARMSX2/ARMSX3**](https://github.com/ARMSX2/ARMSX3) | `C++` | 643 | RPCS3 (PS3 模擬器) 之 ARM64 Android 移植專案 |
+| [**rfandango/XenDroid**](https://github.com/rfandango/XenDroid) | `C++` | 420 | XenDroid 模擬器相關核心與執行環境移植 |
+| [**nachoverdon/Dolphin-MMJR2**](https://github.com/nachoverdon/Dolphin-MMJR2) | `無` | 11 | Dolphin \|MMJR2\| is a Gamecube/Wii Emulator for Android devices; based on Dolphin Official dev source code. Hence, the aim is to get the newer features, fixes, updates of Dolphin Official BUT with the performance improvements  of Dolphin \|MMJR\| (work-in-progress) |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -90,17 +101,17 @@
 | [**stormpanda/megingiard**](https://github.com/stormpanda/megingiard) | `Kotlin` | 143 | Android 掌機效能與驅動增強輔助模組 |
 | [**magiobus/thortranslate**](https://github.com/magiobus/thortranslate) | `Kotlin` | 52 | AYN Thor 掌機專用螢幕即時 OCR 翻譯與解說工具 |
 | [**PerryKum/ImageOverlay**](https://github.com/PerryKum/ImageOverlay) | `Kotlin` | 27 | Android 掌機全域邊框與螢幕遮罩覆蓋工具 |
-| [**samyost1/tmc-android**](https://github.com/samyost1/tmc-android) | `C` | 175 | AYN Thor 薩爾達傳說：不可思議的帽子 雙螢幕模組（下螢幕地圖/背包） |
-| [**samyost1/zelda3-android**](https://github.com/samyost1/zelda3-android) | `C` | 211 | 薩爾達傳說：眾神的三角神力 Android 原生反編譯移植版 |
+| [**samyost1/tmc-android**](https://github.com/samyost1/tmc-android) | `C` | 177 | AYN Thor 薩爾達傳說：不可思議的帽子 雙螢幕模組（下螢幕地圖/背包） |
+| [**samyost1/zelda3-android**](https://github.com/samyost1/zelda3-android) | `C` | 213 | 薩爾達傳說：眾神的三角神力 Android 原生反編譯移植版 |
 | [**viik4/iisu-asset-tool**](https://github.com/viik4/iisu-asset-tool) | `Python` | 72 | 跨平台遊戲封面與客製化啟動器資源處理工具 |
-| [**FrankBarretta/LSFG-Android**](https://github.com/FrankBarretta/LSFG-Android) | `無` | 721 | Lossless Scaling 幀生成演算法之 Android 應用實驗專案 |
-| [**rakanki911/DLSS5-Swapper**](https://github.com/rakanki911/DLSS5-Swapper) | `JavaScript` | 5,952 | 一鍵安裝、調節與還原遊戲中 DLSS / FSR / XeSS 檔案與 OptiScaler 支援 |
+| [**FrankBarretta/LSFG-Android**](https://github.com/FrankBarretta/LSFG-Android) | `無` | 722 | Lossless Scaling 幀生成演算法之 Android 應用實驗專案 |
+| [**rakanki911/DLSS5-Swapper**](https://github.com/rakanki911/DLSS5-Swapper) | `JavaScript` | 6,082 | 一鍵安裝、調節與還原遊戲中 DLSS / FSR / XeSS 檔案與 OptiScaler 支援 |
 | [**xXJSONDeruloXx/decky-dlss-enabler**](https://github.com/xXJSONDeruloXx/decky-dlss-enabler) | `Python` | 117 | SteamOS / Steam Deck 之 DLSS Enabler 外掛補丁工具 |
 | [**TexturesGuide/ALBW_4K_Setup**](https://github.com/TexturesGuide/ALBW_4K_Setup) | `無` | 1 | 薩爾達傳說：眾神的三角神力 2 4K 高畫質材質包設定指南 |
 | [**TexturesGuide/MM3D_4K_SetupGuide**](https://github.com/TexturesGuide/MM3D_4K_SetupGuide) | `無` | 7 | 薩爾達傳說：穆修拉的面具 3D 4K 材質套件設定指南 |
 | [**TexturesGuide/SM3DL_4K_SetupGuide**](https://github.com/TexturesGuide/SM3DL_4K_SetupGuide) | `無` | 1 | 超級瑪利歐 3D 大陸 4K 材質套件設定指南 |
 | [**TexturesGuide/OoT3D_4K_SetupGuide**](https://github.com/TexturesGuide/OoT3D_4K_SetupGuide) | `無` | 17 | 薩爾達傳說：時之笛 3D 4K 高解析度材質包設定指南 |
-| [**TwilitRealm/dusklight**](https://github.com/TwilitRealm/dusklight) | `C++` | 5,418 | 經典冒險遊戲 PC 與現代掌機移植專案 |
+| [**TwilitRealm/dusklight**](https://github.com/TwilitRealm/dusklight) | `C++` | 5,459 | 經典冒險遊戲 PC 與現代掌機移植專案 |
 | [**igawa6/dusklight**](https://github.com/igawa6/dusklight) | `C++` | 74 | Dusklight 移植專案之社群維護分支 |
 | [**huangqian8/SwitchScript**](https://github.com/huangqian8/SwitchScript) | `Shell` | 298 | 任天堂 Switch 大氣層客製化引導整合包產生指令碼 |
 | [**easyworld/hekate**](https://github.com/easyworld/hekate) | `C` | 305 | 任天堂 Switch 繁體/簡體中文圖形介面引導載入程式 (Hekate) |
@@ -112,11 +123,11 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**WinNative-Emu/WinNative**](https://github.com/WinNative-Emu/WinNative) | `Kotlin` | 590 | Android 平台上直接執行 Windows 遊戲之原生環境工具 |
-| [**utkarshdalal/GameNative**](https://github.com/utkarshdalal/GameNative) | `Kotlin` | 10,644 | Android 上原生執行 Steam、Epic、GOG 等 PC 遊戲的啟動與相容層 |
-| [**brunodev85/winlator**](https://github.com/brunodev85/winlator) | `C` | 19,089 | 經典 Android 執行 Windows (x86_64) 應用程式與 PC 遊戲之轉譯容器 |
-| [**Producdevity/gamehub-lite**](https://github.com/Producdevity/gamehub-lite) | `Smali` | 1,987 | GameHub Lite 社群維護修改版，支援掌機遊戲啟動 |
-| [**The412Banner/BannerHub**](https://github.com/The412Banner/BannerHub) | `Smali` | 495 | GameHub ReVanced 增強版，擴展 GOG、Epic 支援與介面自訂 |
+| [**WinNative-Emu/WinNative**](https://github.com/WinNative-Emu/WinNative) | `Kotlin` | 592 | Android 平台上直接執行 Windows 遊戲之原生環境工具 |
+| [**utkarshdalal/GameNative**](https://github.com/utkarshdalal/GameNative) | `Kotlin` | 10,661 | Android 上原生執行 Steam、Epic、GOG 等 PC 遊戲的啟動與相容層 |
+| [**brunodev85/winlator**](https://github.com/brunodev85/winlator) | `C` | 19,095 | 經典 Android 執行 Windows (x86_64) 應用程式與 PC 遊戲之轉譯容器 |
+| [**Producdevity/gamehub-lite**](https://github.com/Producdevity/gamehub-lite) | `Smali` | 1,988 | GameHub Lite 社群維護修改版，支援掌機遊戲啟動 |
+| [**The412Banner/BannerHub**](https://github.com/The412Banner/BannerHub) | `Smali` | 496 | GameHub ReVanced 增強版，擴展 GOG、Epic 支援與介面自訂 |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -125,11 +136,11 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**ddeverill/SteamlessController**](https://github.com/ddeverill/SteamlessController) | `C++` | 362 | 讓 2026 Steam Controller 與各類手把在非 Steam 環境中完美對應支援 |
-| [**awalol/DS5Dongle**](https://github.com/awalol/DS5Dongle) | `C++` | 2,789 | 將 Raspberry Pi Pico 2 W 轉為 DualSense 5 藍牙無線接收器 |
+| [**ddeverill/SteamlessController**](https://github.com/ddeverill/SteamlessController) | `C++` | 363 | 讓 2026 Steam Controller 與各類手把在非 Steam 環境中完美對應支援 |
+| [**awalol/DS5Dongle**](https://github.com/awalol/DS5Dongle) | `C++` | 2,796 | 將 Raspberry Pi Pico 2 W 轉為 DualSense 5 藍牙無線接收器 |
 | [**OpenStickCommunity/GP2040-CE**](https://github.com/OpenStickCommunity/GP2040-CE) | `C++` | 2,526 | 基於 RP2040 的開源多平台低延遲搖桿/格鬥手把韌體 |
-| [**sezanzeb/input-remapper**](https://github.com/sezanzeb/input-remapper) | `Python` | 5,950 | Linux / 掌機裝置按鍵映射與巨集客製化工具 |
-| [**SplitScreen-Me/splitscreenme-nucleus**](https://github.com/SplitScreen-Me/splitscreenme-nucleus) | `C#` | 2,046 | Nucleus Co-op 本地多人分割螢幕同樂多開管理工具 |
+| [**sezanzeb/input-remapper**](https://github.com/sezanzeb/input-remapper) | `Python` | 5,952 | Linux / 掌機裝置按鍵映射與巨集客製化工具 |
+| [**SplitScreen-Me/splitscreenme-nucleus**](https://github.com/SplitScreen-Me/splitscreenme-nucleus) | `C#` | 2,048 | Nucleus Co-op 本地多人分割螢幕同樂多開管理工具 |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -146,10 +157,10 @@
 | :--- | :---: | :---: | :--- |
 | [**Axixi2233/Sunshine**](https://github.com/Axixi2233/Sunshine) | `C++` | 41 | 自託管遊戲串流伺服端 Sunshine 社群最佳化版本 |
 | [**Axixi2233/moonlight-qt**](https://github.com/Axixi2233/moonlight-qt) | `C++` | 78 | Moonlight PC 端 (Windows/Mac/Linux) 增強自訂版 |
-| [**Axixi2233/moonlight-android**](https://github.com/Axixi2233/moonlight-android) | `Java` | 2,358 | Moonlight Android 端阿西西修改版（掌機觸控與效能優化） |
-| [**moonlight-stream/moonlight-android**](https://github.com/moonlight-stream/moonlight-android) | `C` | 7,140 | Moonlight 官方 Android GameStream 串流用戶端 |
-| [**moonlight-stream/moonlight-qt**](https://github.com/moonlight-stream/moonlight-qt) | `C++` | 18,704 | Moonlight 官方 PC (Qt) GameStream 串流用戶端 |
-| [**moonlight-stream/moonlight-ios**](https://github.com/moonlight-stream/moonlight-ios) | `C` | 1,666 | Moonlight 官方 iOS / Apple TV GameStream 串流用戶端 |
+| [**Axixi2233/moonlight-android**](https://github.com/Axixi2233/moonlight-android) | `Java` | 2,359 | Moonlight Android 端阿西西修改版（掌機觸控與效能優化） |
+| [**moonlight-stream/moonlight-android**](https://github.com/moonlight-stream/moonlight-android) | `C` | 7,145 | Moonlight 官方 Android GameStream 串流用戶端 |
+| [**moonlight-stream/moonlight-qt**](https://github.com/moonlight-stream/moonlight-qt) | `C++` | 18,711 | Moonlight 官方 PC (Qt) GameStream 串流用戶端 |
+| [**moonlight-stream/moonlight-ios**](https://github.com/moonlight-stream/moonlight-ios) | `C` | 1,667 | Moonlight 官方 iOS / Apple TV GameStream 串流用戶端 |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -161,12 +172,12 @@
 | [**Geocld/PeaSyo-rs**](https://github.com/Geocld/PeaSyo-rs) | `無` | 32 | 高效能 Android PlayStation 遠端遊玩用戶端 (Rust 核心) |
 | [**Geocld/PeaSyo**](https://github.com/Geocld/PeaSyo) | `C` | 366 | 次世代開源 Android PlayStation 遠端串流用戶端 |
 | [**Geocld/PeaSyo4Desk**](https://github.com/Geocld/PeaSyo4Desk) | `TypeScript` | 59 | PlayStation 桌面端遠端遊玩用戶端 (PeaSyo Desktop) |
-| [**Geocld/XStreaming**](https://github.com/Geocld/XStreaming) | `TypeScript` | 864 | 開源 Xbox 遠端遊玩與雲端串流用戶端 (Android) |
-| [**Geocld/XStreamingDesktop**](https://github.com/Geocld/XStreamingDesktop) | `TypeScript` | 292 | 開源 Xbox 桌面端串流應用程式 (Electron / TypeScript) |
+| [**Geocld/XStreaming**](https://github.com/Geocld/XStreaming) | `TypeScript` | 867 | 開源 Xbox 遠端遊玩與雲端串流用戶端 (Android) |
+| [**Geocld/XStreamingDesktop**](https://github.com/Geocld/XStreamingDesktop) | `TypeScript` | 293 | 開源 Xbox 桌面端串流應用程式 (Electron / TypeScript) |
 | [**streamingdv/PSPlay-Application-Hosting**](https://github.com/streamingdv/PSPlay-Application-Hosting) | `無` | 288 | PXPlay / PSPlay 官方遠端串流發布庫 |
-| [**OpenCloudGaming/OpenNOW**](https://github.com/OpenCloudGaming/OpenNOW) | `Rust` | 2,448 | 開源第三方 GeForce NOW 串流客戶端 (OpenNOW) |
-| [**Steam-Headless/docker-steam-headless**](https://github.com/Steam-Headless/docker-steam-headless) | `Shell` | 4,813 | 無頭 (Headless) Steam Docker 映像檔，支援 NVIDIA GPU 串流 |
-| [**alvr-org/ALVR**](https://github.com/alvr-org/ALVR) | `Rust` | 7,930 | 透過 Wi-Fi 將 PC VR 遊戲無線串流至獨立 VR 頭戴顯示器 (如 Quest) |
+| [**OpenCloudGaming/OpenNOW**](https://github.com/OpenCloudGaming/OpenNOW) | `Rust` | 2,450 | 開源第三方 GeForce NOW 串流客戶端 (OpenNOW) |
+| [**Steam-Headless/docker-steam-headless**](https://github.com/Steam-Headless/docker-steam-headless) | `Shell` | 4,814 | 無頭 (Headless) Steam Docker 映像檔，支援 NVIDIA GPU 串流 |
+| [**alvr-org/ALVR**](https://github.com/alvr-org/ALVR) | `Rust` | 7,933 | 透過 Wi-Fi 將 PC VR 遊戲無線串流至獨立 VR 頭戴顯示器 (如 Quest) |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -175,9 +186,9 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**Genymobile/scrcpy**](https://github.com/Genymobile/scrcpy) | `C` | 150,035 | 透過 USB / TCP-IP 投射與控制 Android 裝置螢幕（低延遲、高解析度） |
-| [**rustdesk/rustdesk**](https://github.com/rustdesk/rustdesk) | `Rust` | 124,032 | 開源全平台遠端桌面連線工具，支援自建伺服器 |
-| [**deskflow/deskflow**](https://github.com/deskflow/deskflow) | `C++` | 28,966 | 在多台電腦之間共享一套鍵盤與滑鼠（Synergy/Barrier 開源繼承者） |
+| [**Genymobile/scrcpy**](https://github.com/Genymobile/scrcpy) | `C` | 150,085 | 透過 USB / TCP-IP 投射與控制 Android 裝置螢幕（低延遲、高解析度） |
+| [**rustdesk/rustdesk**](https://github.com/rustdesk/rustdesk) | `Rust` | 124,102 | 開源全平台遠端桌面連線工具，支援自建伺服器 |
+| [**deskflow/deskflow**](https://github.com/deskflow/deskflow) | `C++` | 28,991 | 在多台電腦之間共享一套鍵盤與滑鼠（Synergy/Barrier 開源繼承者） |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -192,13 +203,13 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**affaan-m/ECC**](https://github.com/affaan-m/ECC) | `JavaScript` | 263,072 | AI Agent 執行環境效能最佳化系統，賦予 Claude Code / Cursor 技能與長效記憶 |
-| [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) | `Python` | 247,226 | Nous Research 開源自主 AI 代理系統 (Hermes Agent) |
+| [**affaan-m/ECC**](https://github.com/affaan-m/ECC) | `JavaScript` | 263,851 | AI Agent 執行環境效能最佳化系統，賦予 Claude Code / Cursor 技能與長效記憶 |
+| [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) | `Python` | 247,510 | Nous Research 開源自主 AI 代理系統 (Hermes Agent) |
 | [**NousResearch/hermes-plugin-backsearch**](https://github.com/NousResearch/hermes-plugin-backsearch) | `Python` | 63 | Hermes Agent 外掛：提供時間切片歷史新聞搜尋與擷取 |
-| [**AstrBotDevs/AstrBot**](https://github.com/AstrBotDevs/AstrBot) | `Python` | 40,721 | 多平台社群軟體 (Discord/Telegram 等) AI 代理與 LLM 外掛框架 |
+| [**AstrBotDevs/AstrBot**](https://github.com/AstrBotDevs/AstrBot) | `Python` | 40,748 | 多平台社群軟體 (Discord/Telegram 等) AI 代理與 LLM 外掛框架 |
 | [**agenvoy/Agenvoy**](https://github.com/agenvoy/Agenvoy) | `Go` | 526 | 單一 Go 執行檔自託管 AI 代理，具備自我修復工具與沙盒測試能力 |
-| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | `TypeScript` | 39,054 | 多模態 GUI 視覺操控 AI 代理框架 (UI-TARS) |
-| [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | `Python` | 32,175 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
+| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | `TypeScript` | 39,062 | 多模態 GUI 視覺操控 AI 代理框架 (UI-TARS) |
+| [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | `Python` | 32,182 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | `JavaScript` | 1,756 | OpenClaw AI 助理離線免安裝整合環境 |
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | `TypeScript` | 455 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
 
@@ -209,15 +220,15 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**colbymchenry/codegraph**](https://github.com/colbymchenry/codegraph) | `C` | 71,519 | 預先索引程式碼知識圖譜，為 Claude Code / AntiGravity 大幅節省 Token 與工具呼叫 |
-| [**headroomlabs-ai/headroom**](https://github.com/headroomlabs-ai/headroom) | `Python` | 73,136 | 在工具輸出、日誌與 RAG 輸入前智慧壓縮內容，節省 20%~95% Token 消耗 |
-| [**JuliusBrussee/caveman**](https://github.com/JuliusBrussee/caveman) | `Go` | 106,821 | 極致精簡 Prompt Token 壓縮工具，降低 LLM 呼叫開銷 |
-| [**cathrynlavery/diagram-design**](https://github.com/cathrynlavery/diagram-design) | `HTML` | 41,386 | 針對 AI 編程助理打造的高質感自包含 HTML + SVG 架構圖設計指南 |
-| [**google/skills**](https://github.com/google/skills) | `Python` | 20,185 | Google 官方產品與雲端技術之 Agent Skills 擴展庫 |
-| [**emilkowalski/skills**](https://github.com/emilkowalski/skills) | `Markdown` | 38,907 | 專為設計師與工程師打造的高品質前端與動效 Skills 指南 |
+| [**colbymchenry/codegraph**](https://github.com/colbymchenry/codegraph) | `C` | 71,619 | 預先索引程式碼知識圖譜，為 Claude Code / AntiGravity 大幅節省 Token 與工具呼叫 |
+| [**headroomlabs-ai/headroom**](https://github.com/headroomlabs-ai/headroom) | `Python` | 73,282 | 在工具輸出、日誌與 RAG 輸入前智慧壓縮內容，節省 20%~95% Token 消耗 |
+| [**JuliusBrussee/caveman**](https://github.com/JuliusBrussee/caveman) | `Go` | 106,994 | 極致精簡 Prompt Token 壓縮工具，降低 LLM 呼叫開銷 |
+| [**cathrynlavery/diagram-design**](https://github.com/cathrynlavery/diagram-design) | `HTML` | 41,610 | 針對 AI 編程助理打造的高質感自包含 HTML + SVG 架構圖設計指南 |
+| [**google/skills**](https://github.com/google/skills) | `Python` | 20,213 | Google 官方產品與雲端技術之 Agent Skills 擴展庫 |
+| [**emilkowalski/skills**](https://github.com/emilkowalski/skills) | `Markdown` | 39,590 | 專為設計師與工程師打造的高品質前端與動效 Skills 指南 |
 | [**voidful/hung-yi-lee-skill**](https://github.com/voidful/hung-yi-lee-skill) | `HTML` | 1,284 | 蒸餾李宏毅老師深度學習與 Karpathy LLM 概念之 Agent 技能模組 |
-| [**htdt/godogen**](https://github.com/htdt/godogen) | `Python` | 6,953 | 利用 Claude Code / Codex 自主進行 Godot 與 Bevy 遊戲開發的 AI 系統 |
-| [**nexu-io/open-design**](https://github.com/nexu-io/open-design) | `TypeScript` | 97,136 | AI 程式設計代理的 UI 設計與視覺規範外掛 |
+| [**htdt/godogen**](https://github.com/htdt/godogen) | `Python` | 6,957 | 利用 Claude Code / Codex 自主進行 Godot 與 Bevy 遊戲開發的 AI 系統 |
+| [**nexu-io/open-design**](https://github.com/nexu-io/open-design) | `TypeScript` | 97,318 | AI 程式設計代理的 UI 設計與視覺規範外掛 |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -226,14 +237,14 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**leonickson1/Swiftlet**](https://github.com/leonickson1/Swiftlet) | `Swift` | 640 | 在 Apple 裝置上透過 SSD 串流專家權重執行 35B/80B MoE 模型的 Swift/Metal 執行階段 |
-| [**jundot/omlx**](https://github.com/jundot/omlx) | `Python` | 21,934 | 支援連續批次處理 (Continuous Batching) 的 Apple Silicon 高速 LLM 推論伺服器 |
-| [**raullenchai/Rapid-MLX**](https://github.com/raullenchai/Rapid-MLX) | `Python` | 3,796 | 專為 Apple Silicon 打造的極速本地 AI 執行引擎 |
-| [**exo-explore/exo**](https://github.com/exo-explore/exo) | `Python` | 47,532 | 在多台日常裝置（Mac/PC/手機）之間分散協同執行前沿 AI 大模型 |
-| [**cactus-compute/needle**](https://github.com/cactus-compute/needle) | `Python` | 11,688 | 專為微型裝置打造的 2-bit (8-29MB) 超輕量自動化基礎模型 |
-| [**Mininglamp-AI/Mano-P**](https://github.com/Mininglamp-AI/Mano-P) | `無` | 2,774 | 開源邊緣裝置視覺-語言-動作 (GUI-VLA) 操控模型 |
-| [**Edge0-AI/Edge0**](https://github.com/Edge0-AI/Edge0) | `Python` | 2,009 | 邊緣端 AI 自動化與推論架構專案 |
-| [**ornith-ai/Ornith-1**](https://github.com/ornith-ai/Ornith-1) | `無` | 2,056 | 輕量化多模態邊緣推論模型專案 |
+| [**leonickson1/Swiftlet**](https://github.com/leonickson1/Swiftlet) | `Swift` | 641 | 在 Apple 裝置上透過 SSD 串流專家權重執行 35B/80B MoE 模型的 Swift/Metal 執行階段 |
+| [**jundot/omlx**](https://github.com/jundot/omlx) | `Python` | 21,969 | 支援連續批次處理 (Continuous Batching) 的 Apple Silicon 高速 LLM 推論伺服器 |
+| [**raullenchai/Rapid-MLX**](https://github.com/raullenchai/Rapid-MLX) | `Python` | 3,800 | 專為 Apple Silicon 打造的極速本地 AI 執行引擎 |
+| [**exo-explore/exo**](https://github.com/exo-explore/exo) | `Python` | 47,566 | 在多台日常裝置（Mac/PC/手機）之間分散協同執行前沿 AI 大模型 |
+| [**cactus-compute/needle**](https://github.com/cactus-compute/needle) | `Python` | 11,914 | 專為微型裝置打造的 2-bit (8-29MB) 超輕量自動化基礎模型 |
+| [**Mininglamp-AI/Mano-P**](https://github.com/Mininglamp-AI/Mano-P) | `無` | 2,779 | 開源邊緣裝置視覺-語言-動作 (GUI-VLA) 操控模型 |
+| [**Edge0-AI/Edge0**](https://github.com/Edge0-AI/Edge0) | `Python` | 2,024 | 邊緣端 AI 自動化與推論架構專案 |
+| [**ornith-ai/Ornith-1**](https://github.com/ornith-ai/Ornith-1) | `無` | 2,061 | 輕量化多模態邊緣推論模型專案 |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -242,14 +253,14 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**unclecode/crawl4ai**](https://github.com/unclecode/crawl4ai) | `Python` | 83,893 | 專為 LLM 打造的高速開源網頁爬蟲與資訊萃取框架 (Crawl4AI) |
-| [**microsoft/markitdown**](https://github.com/microsoft/markitdown) | `Python` | 185,736 | 微軟開源多格式文件 (Office/PDF) 轉換為 Markdown 工具 |
-| [**docling-project/docling**](https://github.com/docling-project/docling) | `Python` | 67,210 | IBM 開源高精準度文件解析與 GenAI 資料就緒轉換工具 |
-| [**img2threejs/img2threejs**](https://github.com/img2threejs/img2threejs) | `Python` | 16,435 | 將參考圖片轉為程序化、可動畫的 Three.js 3D 模型程式碼 |
-| [**roboflow/supervision**](https://github.com/roboflow/supervision) | `Python` | 50,945 | 現代電腦視覺工具庫，支援物件偵測、追蹤與標註視覺化 |
-| [**HKUDS/DeepTutor**](https://github.com/HKUDS/DeepTutor) | `Python` | 40,021 | 香港大學開源終身個人化 AI 家教輔導系統 |
-| [**koala73/worldmonitor**](https://github.com/koala73/worldmonitor) | `TypeScript` | 87,037 | 即時全球地緣與情報監控儀表板 (WorldMonitor) |
-| [**bilawalsidhu/gods-eye-view**](https://github.com/bilawalsidhu/gods-eye-view) | `JavaScript` | 38,762 | 真實開源空間情報與 3D 地球衛星軌跡即時視覺化模擬器 |
+| [**unclecode/crawl4ai**](https://github.com/unclecode/crawl4ai) | `Python` | 83,990 | 專為 LLM 打造的高速開源網頁爬蟲與資訊萃取框架 (Crawl4AI) |
+| [**microsoft/markitdown**](https://github.com/microsoft/markitdown) | `Python` | 185,966 | 微軟開源多格式文件 (Office/PDF) 轉換為 Markdown 工具 |
+| [**docling-project/docling**](https://github.com/docling-project/docling) | `Python` | 67,450 | IBM 開源高精準度文件解析與 GenAI 資料就緒轉換工具 |
+| [**img2threejs/img2threejs**](https://github.com/img2threejs/img2threejs) | `Python` | 16,477 | 將參考圖片轉為程序化、可動畫的 Three.js 3D 模型程式碼 |
+| [**roboflow/supervision**](https://github.com/roboflow/supervision) | `Python` | 50,956 | 現代電腦視覺工具庫，支援物件偵測、追蹤與標註視覺化 |
+| [**HKUDS/DeepTutor**](https://github.com/HKUDS/DeepTutor) | `Python` | 40,083 | 香港大學開源終身個人化 AI 家教輔導系統 |
+| [**koala73/worldmonitor**](https://github.com/koala73/worldmonitor) | `TypeScript` | 87,098 | 即時全球地緣與情報監控儀表板 (WorldMonitor) |
+| [**bilawalsidhu/gods-eye-view**](https://github.com/bilawalsidhu/gods-eye-view) | `JavaScript` | 39,718 | 真實開源空間情報與 3D 地球衛星軌跡即時視覺化模擬器 |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -264,11 +275,11 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**itsfatduck/optimizerDuck**](https://github.com/itsfatduck/optimizerDuck) | `C#` | 9,605 | 免費開源 Windows 深度優化、隱私強化與系統清理工具 |
-| [**thedogecraft/sparkle**](https://github.com/thedogecraft/sparkle) | `TypeScript` | 2,126 | 精緻現代的 Windows 瘦身與系統加速應用程式 |
-| [**AdventDevInc/kudu**](https://github.com/AdventDevInc/kudu) | `TypeScript` | 3,534 | 跨平台 (Win/Mac/Linux) 開源垃圾清理、快取掃描與安全管理工具 |
-| [**builtbybel/FluentTweaker**](https://github.com/builtbybel/FluentTweaker) | `C#` | 3,499 | 微軟風格 Fluent 介面之 Windows 深度調校輔助工具 |
-| [**apple/container**](https://github.com/apple/container) | `Swift` | 50,071 | Apple 官方開源用於 macOS 上建立與執行 Linux 容器的輕量工具 |
+| [**itsfatduck/optimizerDuck**](https://github.com/itsfatduck/optimizerDuck) | `C#` | 9,612 | 免費開源 Windows 深度優化、隱私強化與系統清理工具 |
+| [**thedogecraft/sparkle**](https://github.com/thedogecraft/sparkle) | `TypeScript` | 2,125 | 精緻現代的 Windows 瘦身與系統加速應用程式 |
+| [**AdventDevInc/kudu**](https://github.com/AdventDevInc/kudu) | `TypeScript` | 3,545 | 跨平台 (Win/Mac/Linux) 開源垃圾清理、快取掃描與安全管理工具 |
+| [**builtbybel/FluentTweaker**](https://github.com/builtbybel/FluentTweaker) | `C#` | 3,504 | 微軟風格 Fluent 介面之 Windows 深度調校輔助工具 |
+| [**apple/container**](https://github.com/apple/container) | `Swift` | 50,082 | Apple 官方開源用於 macOS 上建立與執行 Linux 容器的輕量工具 |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -277,16 +288,16 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**darrylmorley/whatcable**](https://github.com/darrylmorley/whatcable) | `Swift` | 8,740 | macOS 狀態列小工具，插上 USB-C 即時顯示該線材真實傳輸速率與充電規格 |
+| [**darrylmorley/whatcable**](https://github.com/darrylmorley/whatcable) | `Swift` | 8,750 | macOS 狀態列小工具，插上 USB-C 即時顯示該線材真實傳輸速率與充電規格 |
 | [**timothycrosley/streamdeck-ui**](https://github.com/timothycrosley/streamdeck-ui) | `Python` | 1,272 | Linux 系統相容之 Elgato Stream Deck 控制軟體 |
 | [**tjsky/logi-options-plus-mini**](https://github.com/tjsky/logi-options-plus-mini) | `PowerShell` | 811 | 輕量化羅技 Logi Options+ 背景自訂按鍵對應工具 |
-| [**zeuikli/line-cheater**](https://github.com/zeuikli/line-cheater) | `Rust` | 118 | iOS LINE 本地備份對話搜尋、匯出與安全瘦身工具 (桌面/CLI) |
-| [**rejetto/hfs**](https://github.com/rejetto/hfs) | `TypeScript` | 3,906 | 新世代 HFS 輕量級本機網頁檔案伺服器 (HTTP File Server) |
-| [**Finb/Bark**](https://github.com/Finb/Bark) | `Swift` | 9,120 | 開源 iOS 隱私即時推送通知工具 (Bark) |
-| [**flxholle/QuickTiles**](https://github.com/flxholle/QuickTiles) | `Java` | 400 | Android 快速設定面板 (Quick Settings Tiles) 功能擴展工具 |
-| [**ImranR98/Obtainium**](https://github.com/ImranR98/Obtainium) | `Dart` | 19,811 | 直接從 GitHub / GitLab 來源直接檢查並更新 Android 開源 App |
+| [**zeuikli/line-cheater**](https://github.com/zeuikli/line-cheater) | `Rust` | 119 | iOS LINE 本地備份對話搜尋、匯出與安全瘦身工具 (桌面/CLI) |
+| [**rejetto/hfs**](https://github.com/rejetto/hfs) | `TypeScript` | 3,908 | 新世代 HFS 輕量級本機網頁檔案伺服器 (HTTP File Server) |
+| [**Finb/Bark**](https://github.com/Finb/Bark) | `Swift` | 9,124 | 開源 iOS 隱私即時推送通知工具 (Bark) |
+| [**flxholle/QuickTiles**](https://github.com/flxholle/QuickTiles) | `Java` | 401 | Android 快速設定面板 (Quick Settings Tiles) 功能擴展工具 |
+| [**ImranR98/Obtainium**](https://github.com/ImranR98/Obtainium) | `Dart` | 19,832 | 直接從 GitHub / GitLab 來源直接檢查並更新 Android 開源 App |
 | [**ButTaiwan/bpmfvs**](https://github.com/ButTaiwan/bpmfvs) | `JavaScript` | 298 | 台灣注音符號字型字形變體規格 (Bopomofo IVS) |
-| [**bashalarmistalt/decimen-optical-transfer**](https://github.com/bashalarmistalt/decimen-optical-transfer) | `TypeScript` | 6,778 | 光學資料安全單向傳輸與驗證工具 |
+| [**bashalarmistalt/decimen-optical-transfer**](https://github.com/bashalarmistalt/decimen-optical-transfer) | `TypeScript` | 6,779 | 光學資料安全單向傳輸與驗證工具 |
 | [**LobsterTrap/tank-os**](https://github.com/LobsterTrap/tank-os) | `Shell` | 307 | 輕量嵌入式作業系統概念原型 |
 | [**wdzeng/shopee-coins-bot**](https://github.com/wdzeng/shopee-coins-bot) | `TypeScript` | 458 | 台灣蝦皮每日簽到與領取蝦幣自動化機器人 |
 
@@ -297,7 +308,7 @@
 
 | 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |
 | :--- | :---: | :---: | :--- |
-| [**arendst/Tasmota**](https://github.com/arendst/Tasmota) | `C` | 24,766 | 經典 ESP8266 與 ESP32 開源物聯網替代韌體 (支援 MQTT/Home Assistant) |
+| [**arendst/Tasmota**](https://github.com/arendst/Tasmota) | `C` | 24,769 | 經典 ESP8266 與 ESP32 開源物聯網替代韌體 (支援 MQTT/Home Assistant) |
 | [**espressif/esptool**](https://github.com/espressif/esptool) | `Python` | 6,482 | 樂鑫官方 ESP8266 / ESP32 晶片序列埠燒錄與韌體管理工具 |
 
 [⬆ 回到目錄導覽](#toc)
