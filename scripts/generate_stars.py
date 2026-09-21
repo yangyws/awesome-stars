@@ -23,8 +23,37 @@ if sys.platform == "win32":
 USERNAME = "yangyws"
 OUTPUT_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "README.md")
 
+# 專案自訂語言對照表（針對無預設分支主要語言之儲存庫進行精準標註）
+REPO_CUSTOM_LANGUAGES = {
+    "yangyws/Dolphin-MMJR2-VBI-zh": "C++",
+    "yangyws/azahar-zh": "C++",
+    "yangyws/megingiard-zh": "Kotlin",
+    "yangyws/pulse-zh": "Kotlin",
+}
+
 # 分類對照、專案自訂說明與豐富關鍵字庫
 CATEGORY_DEFINITIONS = [
+    {
+        "id": "chinese-localization",
+        "name": "🇹🇼 中文化 (Chinese Localization)",
+        "desc": "專為 Android 掌機深度客製的台灣繁體中文化與獨立共存版開源專案，支援原生多語系熱切換與一鍵安裝部署。",
+        "subcategories": [
+            {
+                "id": "handheld-coexistence",
+                "name": "掌機繁體中文共存版 (Handheld Coexistence)",
+                "keywords": [
+                    "zh", "localization", "chinese", "traditional chinese", "taiwan",
+                    "coexistence", "megingiard", "vbi", "azahar", "pulse"
+                ],
+                "repos": {
+                    "yangyws/megingiard-zh": "Android 掌機雙螢幕與表格巨集板增強輔助模組（繁體中文共存版）",
+                    "yangyws/Dolphin-MMJR2-VBI-zh": "Dolphin MMJR2 分支，新增 VBI 垂直同步中斷跳過與掌機獨立共存（繁體中文版）",
+                    "yangyws/azahar-zh": "基於 Citra 之新世代 3DS 掌機模擬器，支援掌機獨立共存與繁體中文（繁體中文版）",
+                    "yangyws/pulse-zh": "Android 掌機免 Root CPU/GPU 頻率調校工具，支援掌機獨立共存（繁體中文版）"
+                }
+            }
+        ]
+    },
     {
         "id": "handheld-gaming-emulators",
         "name": "🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)",
@@ -60,7 +89,8 @@ CATEGORY_DEFINITIONS = [
                 "keywords": [
                     "emulator", "emulation", "ps4", "ps3", "ps2", "3ds", "cemu", "rpcs3", 
                     "drastic", "armsx", "citra", "yuzu", "ryujinx", "dolphin", "vita3k", 
-                    "retroarch", "mame", "gameboy", "gba", "switch emulator", "nes", "snes"
+                    "retroarch", "mame", "gameboy", "gba", "switch emulator", "nes", "snes",
+                    "n64", "mupen", "mupen64"
                 ],
                 "repos": {
                     "shadps4-emu/shadPS4": "適用於 Windows、Linux、macOS 的 PlayStation 4 開源模擬器 (C++)",
@@ -70,6 +100,7 @@ CATEGORY_DEFINITIONS = [
                     "Medard22/Dolphin-MMJR2-VBI": "Dolphin MMJR2 分支，新增 VBI 跳過黑客修正與官方同步補丁",
                     "SapphireRhodonite/Cemu": "Wii U 模擬器 Cemu 之 Android 移植版本",
                     "SSimco/Cemu": "Wii U 模擬器 Cemu 之 Android 移植開源專案",
+                    "mupen64plus-ae/mupen64plus-ae": "經典任天堂 64 (N64) 模擬器 Android 移植版本 (Mupen64Plus AE)",
                     "R-YaTian/DraStic_rev_i18n": "NDS 模擬器 DraStic 繁中與在地化逆向修正版",
                     "ARMSX2/ARMSX2": "PlayStation 2 模擬器 ARM64 Android 移植專案",
                     "ARMSX2/ARMSX3": "RPCS3 (PS3 模擬器) 之 ARM64 Android 移植專案",
@@ -362,6 +393,29 @@ def fetch_starred_repos(username):
     return all_repos
 
 
+def fetch_single_repo(repo_name):
+    token = os.environ.get("GITHUB_TOKEN")
+    headers = {
+        "User-Agent": "Awesome-Stars-Generator",
+        "Accept": "application/vnd.github.v3+json"
+    }
+    if token:
+        headers["Authorization"] = f"token {token}"
+    url = f"https://api.github.com/repos/{repo_name}"
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        print(f"⚠️ 無法取得 {repo_name} 資訊: {e}")
+        return {
+            "full_name": repo_name,
+            "html_url": f"https://github.com/{repo_name}",
+            "language": "無",
+            "stargazers_count": 0
+        }
+
+
 def classify_repo_automatically(repo, category_definitions):
     """
     依據新專案的 topics, name, description 計算加權分數，自動歸類至最合適的子分類
@@ -425,14 +479,18 @@ def categorize_repos(repos):
             for repo_name, custom_desc in subcat["repos"].items():
                 if repo_name in repo_map:
                     r = repo_map[repo_name]
-                    classified.add(repo_name)
-                    subcat_data["repos"].append({
-                        "full_name": repo_name,
-                        "url": r["html_url"],
-                        "language": r.get("language") or "無",
-                        "stars": r.get("stargazers_count", 0),
-                        "description": custom_desc
-                    })
+                else:
+                    r = fetch_single_repo(repo_name)
+                    repo_map[repo_name] = r
+                classified.add(repo_name)
+                language = REPO_CUSTOM_LANGUAGES.get(repo_name) or r.get("language") or "無"
+                subcat_data["repos"].append({
+                    "full_name": repo_name,
+                    "url": r.get("html_url") or f"https://github.com/{repo_name}",
+                    "language": language,
+                    "stars": r.get("stargazers_count", 0),
+                    "description": custom_desc
+                })
             cat_data["subcategories"].append(subcat_data)
         category_results.append(cat_data)
 
@@ -465,23 +523,9 @@ def categorize_repos(repos):
         else:
             unresolved_repos.append(r)
 
-    # 3. 若完全無法判定（特徵詞完全未命中），放入獨立的最近新增區塊
+    # 3. 未命中特徵之專案不額外建立「最近新增」區塊，保持版面結構純淨
     if unresolved_repos:
-        misc_subcat = {
-            "id": "recently-starred",
-            "name": "✨ 最近新增收藏 (Recently Starred)",
-            "repos": []
-        }
-        for r in unresolved_repos:
-            desc = r.get("description") or "暫無描述"
-            misc_subcat["repos"].append({
-                "full_name": r["full_name"],
-                "url": r["html_url"],
-                "language": r.get("language") or "無",
-                "stars": r.get("stargazers_count", 0),
-                "description": desc
-            })
-        category_results[0]["subcategories"].insert(0, misc_subcat)
+        print(f"ℹ️ 略過未分類專案 ({len(unresolved_repos)} 個): {[r['full_name'] for r in unresolved_repos]}")
 
     return category_results
 
