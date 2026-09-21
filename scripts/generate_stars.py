@@ -34,13 +34,14 @@ REPO_CUSTOM_LANGUAGES = {
 # 分類對照、專案自訂說明與豐富關鍵字庫
 CATEGORY_DEFINITIONS = [
     {
-        "id": "chinese-localization",
-        "name": "🇹🇼 中文化 (Chinese Localization)",
+        "id": "chinese-coexistence",
+        "name": "🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)",
         "desc": "專為 Android 掌機深度客製的台灣繁體中文化與獨立共存版開源專案，支援原生多語系熱切換與一鍵安裝部署。",
+        "single_level": True,
         "subcategories": [
             {
-                "id": "handheld-coexistence",
-                "name": "掌機繁體中文共存版 (Handheld Coexistence)",
+                "id": "chinese-coexistence",
+                "name": "掌機繁體中文化共存版 (Handheld Coexistence)",
                 "keywords": [
                     "zh", "localization", "chinese", "traditional chinese", "taiwan",
                     "coexistence", "megingiard", "vbi", "azahar", "pulse"
@@ -468,6 +469,7 @@ def categorize_repos(repos):
             "id": cat["id"],
             "name": cat["name"],
             "desc": cat["desc"],
+            "single_level": cat.get("single_level", False),
             "subcategories": []
         }
         for subcat in cat["subcategories"]:
@@ -553,8 +555,9 @@ def generate_readme(category_results, total_count, username):
     for cat in category_results:
         cat_total = sum(len(sub["repos"]) for sub in cat["subcategories"])
         lines.append(f"### 📂 [{cat['name']}](#{cat['id']}) ({cat_total})")
-        for sub in cat["subcategories"]:
-            lines.append(f"- [{sub['name']}](#{sub['id']}) `({len(sub['repos'])})`")
+        if not cat.get("single_level"):
+            for sub in cat["subcategories"]:
+                lines.append(f"- [{sub['name']}](#{sub['id']}) `({len(sub['repos'])})`")
         lines.append("")
 
     lines.extend([
@@ -569,10 +572,13 @@ def generate_readme(category_results, total_count, username):
         lines.append(f"*{cat['desc']}*")
         lines.append("")
 
+        is_single = cat.get("single_level", False)
+
         for sub in cat["subcategories"]:
-            lines.append(f'<a id="{sub["id"]}"></a>')
-            lines.append(f"### 📌 {sub['name']}")
-            lines.append("")
+            if not is_single:
+                lines.append(f'<a id="{sub["id"]}"></a>')
+                lines.append(f"### 📌 {sub['name']}")
+                lines.append("")
             lines.append("| 儲存庫名稱 | 專案定位與亮點特色 |")
             lines.append("| :--- | :--- |")
 

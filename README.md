@@ -12,8 +12,7 @@
 <a id="toc"></a>
 ## 📑 目錄導覽 (點擊可直接跳轉)
 
-### 📂 [🇹🇼 中文化 (Chinese Localization)](#chinese-localization) (4)
-- [掌機繁體中文共存版 (Handheld Coexistence)](#handheld-coexistence) `(4)`
+### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (4)
 
 ### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (54)
 - [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(13)`
@@ -40,12 +39,9 @@
 
 ---
 
-<a id="chinese-localization"></a>
-## 🇹🇼 中文化 (Chinese Localization)
+<a id="chinese-coexistence"></a>
+## 🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)
 *專為 Android 掌機深度客製的台灣繁體中文化與獨立共存版開源專案，支援原生多語系熱切換與一鍵安裝部署。*
-
-<a id="handheld-coexistence"></a>
-### 📌 掌機繁體中文共存版 (Handheld Coexistence)
 
 | 儲存庫名稱 | 專案定位與亮點特色 |
 | :--- | :--- |
