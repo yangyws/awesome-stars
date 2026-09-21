@@ -573,13 +573,12 @@ def generate_readme(category_results, total_count, username):
             lines.append(f'<a id="{sub["id"]}"></a>')
             lines.append(f"### 📌 {sub['name']}")
             lines.append("")
-            lines.append("| 儲存庫名稱 | 主要語言 | 星星數 (★) | 專案定位與亮點特色 |")
-            lines.append("| :--- | :---: | :---: | :--- |")
+            lines.append("| 儲存庫名稱 | 專案定位與亮點特色 |")
+            lines.append("| :--- | :--- |")
 
             for r in sub["repos"]:
-                stars_formatted = f"{r['stars']:,}"
                 desc_cleaned = r['description'].replace("|", "\|").replace("\n", " ").replace("\r", "")
-                lines.append(f"| [**{r['full_name']}**]({r['url']}) | `{r['language']}` | {stars_formatted} | {desc_cleaned} |")
+                lines.append(f"| [**{r['full_name']}**]({r['url']}) | {desc_cleaned} |")
 
             lines.append("")
             lines.append("[⬆ 回到目錄導覽](#toc)")
