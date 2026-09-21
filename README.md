@@ -12,7 +12,7 @@
 <a id="toc"></a>
 ## 📑 目錄導覽 (點擊可直接跳轉)
 
-### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (4)
+### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (5)
 
 ### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (54)
 - [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(13)`
@@ -49,6 +49,7 @@
 | [**yangyws/Dolphin-MMJR2-VBI-zh**](https://github.com/yangyws/Dolphin-MMJR2-VBI-zh) | ✅ 是 | Dolphin MMJR2 分支，新增 VBI 垂直同步中斷跳過與掌機獨立共存（繁體中文版） |
 | [**yangyws/azahar-zh**](https://github.com/yangyws/azahar-zh) | ✅ 是 | 基於 Citra 之新世代 3DS 掌機模擬器，支援掌機獨立共存與繁體中文（繁體中文版） |
 | [**yangyws/pulse-zh**](https://github.com/yangyws/pulse-zh) | ✅ 是 | Android 掌機免 Root CPU/GPU 頻率調校工具，支援掌機獨立共存（繁體中文版） |
+| [**yangyws/Cemu-zh**](https://github.com/yangyws/Cemu-zh) | ✅ 是 | Wii U 模擬器 Android 移植版，支援掌機獨立共存與 100% 繁體中文（繁體中文版） |
 
 [⬆ 回到目錄導覽](#toc)
 

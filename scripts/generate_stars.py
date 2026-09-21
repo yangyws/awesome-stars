@@ -29,6 +29,7 @@ REPO_CUSTOM_LANGUAGES = {
     "yangyws/azahar-zh": "C++",
     "yangyws/megingiard-zh": "Kotlin",
     "yangyws/pulse-zh": "Kotlin",
+    "yangyws/Cemu-zh": "C++",
 }
 
 # 明確已知未提供程式碼之專案（如純二進位 Release 發布庫、閉源工具、純設定指南等）
@@ -52,6 +53,7 @@ KNOWN_CODE_REPOS = {
     "yangyws/azahar-zh",
     "yangyws/megingiard-zh",
     "yangyws/pulse-zh",
+    "yangyws/Cemu-zh",
     "Geocld/PeaSyo-rs",
     "Mininglamp-AI/Mano-P",
     "ornith-ai/Ornith-1",
@@ -89,7 +91,8 @@ CATEGORY_DEFINITIONS = [
                     "yangyws/megingiard-zh": "Android 掌機雙螢幕與表格巨集板增強輔助模組（繁體中文共存版）",
                     "yangyws/Dolphin-MMJR2-VBI-zh": "Dolphin MMJR2 分支，新增 VBI 垂直同步中斷跳過與掌機獨立共存（繁體中文版）",
                     "yangyws/azahar-zh": "基於 Citra 之新世代 3DS 掌機模擬器，支援掌機獨立共存與繁體中文（繁體中文版）",
-                    "yangyws/pulse-zh": "Android 掌機免 Root CPU/GPU 頻率調校工具，支援掌機獨立共存（繁體中文版）"
+                    "yangyws/pulse-zh": "Android 掌機免 Root CPU/GPU 頻率調校工具，支援掌機獨立共存（繁體中文版）",
+                    "yangyws/Cemu-zh": "Wii U 模擬器 Android 移植版，支援掌機獨立共存與 100% 繁體中文（繁體中文版）"
                 }
             }
         ]
