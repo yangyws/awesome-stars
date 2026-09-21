@@ -32,6 +32,21 @@ REPO_CUSTOM_LANGUAGES = {
     "yangyws/Cemu-zh": "C++",
 }
 
+# 專案自訂目標分支與連結對照表（確保直接連結至個人中文化整合分支）
+REPO_CUSTOM_URLS = {
+    "yangyws/megingiard-zh": "https://github.com/yangyws/megingiard/tree/main-zh",
+    "yangyws/megingiard": "https://github.com/yangyws/megingiard/tree/main-zh",
+    "yangyws/Dolphin-MMJR2-VBI-zh": "https://github.com/yangyws/Dolphin-MMJR2-VBI-zh/tree/main-zh",
+    "yangyws/azahar-zh": "https://github.com/yangyws/azahar-zh/tree/main-zh",
+    "yangyws/pulse-zh": "https://github.com/yangyws/pulse-zh/tree/main-zh",
+    "yangyws/Cemu-zh": "https://github.com/yangyws/Cemu-zh/tree/main-zh",
+}
+
+# 儲存庫 API 查詢別名
+REPO_NAME_ALIASES = {
+    "yangyws/megingiard-zh": "yangyws/megingiard",
+}
+
 # 明確已知未提供程式碼之專案（如純二進位 Release 發布庫、閉源工具、純設定指南等）
 NO_CODE_REPOS = {
     "JoeCorrell/DualScreen-Launcher",
@@ -444,7 +459,8 @@ def fetch_single_repo(repo_name):
     }
     if token:
         headers["Authorization"] = f"token {token}"
-    url = f"https://api.github.com/repos/{repo_name}"
+    query_name = REPO_NAME_ALIASES.get(repo_name, repo_name)
+    url = f"https://api.github.com/repos/{query_name}"
     req = urllib.request.Request(url, headers=headers)
     try:
         with urllib.request.urlopen(req) as resp:
@@ -528,9 +544,10 @@ def categorize_repos(repos):
                     repo_map[repo_name] = r
                 classified.add(repo_name)
                 language = REPO_CUSTOM_LANGUAGES.get(repo_name) or r.get("language") or "無"
+                custom_url = REPO_CUSTOM_URLS.get(repo_name) or r.get("html_url") or f"https://github.com/{repo_name}"
                 subcat_data["repos"].append({
                     "full_name": repo_name,
-                    "url": r.get("html_url") or f"https://github.com/{repo_name}",
+                    "url": custom_url,
                     "language": language,
                     "stars": r.get("stargazers_count", 0),
                     "has_code": check_has_code(repo_name, r),
@@ -553,9 +570,10 @@ def categorize_repos(repos):
                     for subcat_data in cat_data["subcategories"]:
                         if subcat_data["id"] == target_subcat_id:
                             desc = r.get("description") or "暫無描述"
+                            custom_url = REPO_CUSTOM_URLS.get(r["full_name"]) or r["html_url"]
                             subcat_data["repos"].append({
                                 "full_name": r["full_name"],
-                                "url": r["html_url"],
+                                "url": custom_url,
                                 "language": r.get("language") or "無",
                                 "stars": r.get("stargazers_count", 0),
                                 "has_code": check_has_code(r["full_name"], r),
@@ -627,7 +645,7 @@ def generate_readme(category_results, total_count, username):
             lines.append("| :--- | :---: | :--- |")
 
             for r in sub["repos"]:
-                desc_cleaned = r['description'].replace("|", "\|").replace("\n", " ").replace("\r", "")
+                desc_cleaned = r['description'].replace("|", "\\|").replace("\n", " ").replace("\r", "")
                 has_code = r.get("has_code", "✅ 是")
                 lines.append(f"| [**{r['full_name']}**]({r['url']}) | {has_code} | {desc_cleaned} |")
 

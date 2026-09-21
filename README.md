@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
 [![Stars Count](https://img.shields.io/badge/Total%20Stars-125-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-09-21-green?style=for-the-badge)](https://github.com/yangyws)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-09-22-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -45,11 +45,11 @@
 
 | 儲存庫名稱 | 提供程式碼 | 專案定位與亮點特色 |
 | :--- | :---: | :--- |
-| [**yangyws/megingiard-zh**](https://github.com/yangyws/megingiard-zh) | ✅ 是 | Android 掌機雙螢幕與表格巨集板增強輔助模組（繁體中文共存版） |
-| [**yangyws/Dolphin-MMJR2-VBI-zh**](https://github.com/yangyws/Dolphin-MMJR2-VBI-zh) | ✅ 是 | Dolphin MMJR2 分支，新增 VBI 垂直同步中斷跳過與掌機獨立共存（繁體中文版） |
-| [**yangyws/azahar-zh**](https://github.com/yangyws/azahar-zh) | ✅ 是 | 基於 Citra 之新世代 3DS 掌機模擬器，支援掌機獨立共存與繁體中文（繁體中文版） |
-| [**yangyws/pulse-zh**](https://github.com/yangyws/pulse-zh) | ✅ 是 | Android 掌機免 Root CPU/GPU 頻率調校工具，支援掌機獨立共存（繁體中文版） |
-| [**yangyws/Cemu-zh**](https://github.com/yangyws/Cemu-zh) | ✅ 是 | Wii U 模擬器 Android 移植版，支援掌機獨立共存與 100% 繁體中文（繁體中文版） |
+| [**yangyws/megingiard-zh**](https://github.com/yangyws/megingiard/tree/main-zh) | ✅ 是 | Android 掌機雙螢幕與表格巨集板增強輔助模組（繁體中文共存版） |
+| [**yangyws/Dolphin-MMJR2-VBI-zh**](https://github.com/yangyws/Dolphin-MMJR2-VBI-zh/tree/main-zh) | ✅ 是 | Dolphin MMJR2 分支，新增 VBI 垂直同步中斷跳過與掌機獨立共存（繁體中文版） |
+| [**yangyws/azahar-zh**](https://github.com/yangyws/azahar-zh/tree/main-zh) | ✅ 是 | 基於 Citra 之新世代 3DS 掌機模擬器，支援掌機獨立共存與繁體中文（繁體中文版） |
+| [**yangyws/pulse-zh**](https://github.com/yangyws/pulse-zh/tree/main-zh) | ✅ 是 | Android 掌機免 Root CPU/GPU 頻率調校工具，支援掌機獨立共存（繁體中文版） |
+| [**yangyws/Cemu-zh**](https://github.com/yangyws/Cemu-zh/tree/main-zh) | ✅ 是 | Wii U 模擬器 Android 移植版，支援掌機獨立共存與 100% 繁體中文（繁體中文版） |
 
 [⬆ 回到目錄導覽](#toc)
 
