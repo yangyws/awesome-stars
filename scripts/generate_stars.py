@@ -31,6 +31,45 @@ REPO_CUSTOM_LANGUAGES = {
     "yangyws/pulse-zh": "Kotlin",
 }
 
+# 明確已知未提供程式碼之專案（如純二進位 Release 發布庫、閉源工具、純設定指南等）
+NO_CODE_REPOS = {
+    "JoeCorrell/DualScreen-Launcher",
+    "JoeCorrell/wemu-release",
+    "retrohrai/Releases",
+    "streamingdv/PSPlay-Application-Hosting",
+    "FrankBarretta/LSFG-Android",
+    "TexturesGuide/ALBW_4K_Setup",
+    "TexturesGuide/MM3D_4K_SetupGuide",
+    "TexturesGuide/SM3DL_4K_SetupGuide",
+    "TexturesGuide/OoT3D_4K_SetupGuide",
+    "wang1025475397/Pegasus_GameRomManager",
+    "iisu-network/iiSU",
+}
+
+# 已知有提供原始碼之專案（即使 GitHub language 統計因分支尚未列出）
+KNOWN_CODE_REPOS = {
+    "yangyws/Dolphin-MMJR2-VBI-zh",
+    "yangyws/azahar-zh",
+    "yangyws/megingiard-zh",
+    "yangyws/pulse-zh",
+    "Geocld/PeaSyo-rs",
+    "Mininglamp-AI/Mano-P",
+    "ornith-ai/Ornith-1",
+    "nachoverdon/Dolphin-MMJR2",
+}
+
+
+def check_has_code(repo_name, repo_data):
+    if repo_name in NO_CODE_REPOS:
+        return "❌ 否"
+    if repo_name in KNOWN_CODE_REPOS:
+        return "✅ 是"
+    lang = repo_data.get("language")
+    if lang and lang != "無":
+        return "✅ 是"
+    return "❌ 否"
+
+
 # 分類對照、專案自訂說明與豐富關鍵字庫
 CATEGORY_DEFINITIONS = [
     {
@@ -491,6 +530,7 @@ def categorize_repos(repos):
                     "url": r.get("html_url") or f"https://github.com/{repo_name}",
                     "language": language,
                     "stars": r.get("stargazers_count", 0),
+                    "has_code": check_has_code(repo_name, r),
                     "description": custom_desc
                 })
             cat_data["subcategories"].append(subcat_data)
@@ -515,6 +555,7 @@ def categorize_repos(repos):
                                 "url": r["html_url"],
                                 "language": r.get("language") or "無",
                                 "stars": r.get("stargazers_count", 0),
+                                "has_code": check_has_code(r["full_name"], r),
                                 "description": desc
                             })
                             classified.add(r["full_name"])
@@ -579,12 +620,13 @@ def generate_readme(category_results, total_count, username):
                 lines.append(f'<a id="{sub["id"]}"></a>')
                 lines.append(f"### 📌 {sub['name']}")
                 lines.append("")
-            lines.append("| 儲存庫名稱 | 專案定位與亮點特色 |")
-            lines.append("| :--- | :--- |")
+            lines.append("| 儲存庫名稱 | 提供程式碼 | 專案定位與亮點特色 |")
+            lines.append("| :--- | :---: | :--- |")
 
             for r in sub["repos"]:
                 desc_cleaned = r['description'].replace("|", "\|").replace("\n", " ").replace("\r", "")
-                lines.append(f"| [**{r['full_name']}**]({r['url']}) | {desc_cleaned} |")
+                has_code = r.get("has_code", "✅ 是")
+                lines.append(f"| [**{r['full_name']}**]({r['url']}) | {has_code} | {desc_cleaned} |")
 
             lines.append("")
             lines.append("[⬆ 回到目錄導覽](#toc)")
