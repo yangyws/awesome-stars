@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-125-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-09-23-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-126-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-09-24-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -26,11 +26,11 @@
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (34)
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (35)
 - [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(9)`
 - [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(9)`
 - [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(8)`
-- [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(8)`
+- [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(9)`
 
 ### 📂 [🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)](#system-utilities-and-iot) (19)
 - [作業系統優化與瘦身 (OS Optimizer & Debloat)](#os-optimizer-and-debloat) `(5)`
@@ -270,6 +270,7 @@
 | [**HKUDS/DeepTutor**](https://github.com/HKUDS/DeepTutor) | ✅ 是 | 香港大學開源終身個人化 AI 家教輔導系統 |
 | [**koala73/worldmonitor**](https://github.com/koala73/worldmonitor) | ✅ 是 | 即時全球地緣與情報監控儀表板 (WorldMonitor) |
 | [**bilawalsidhu/gods-eye-view**](https://github.com/bilawalsidhu/gods-eye-view) | ✅ 是 | 真實開源空間情報與 3D 地球衛星軌跡即時視覺化模擬器 |
+| [**awlevin/typesafe-computer-use**](https://github.com/awlevin/typesafe-computer-use) | ✅ 是 | Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS. |
 
 [⬆ 回到目錄導覽](#toc)
 
