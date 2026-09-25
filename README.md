@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-126-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-09-24-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-129-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-09-25-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -26,9 +26,9 @@
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (35)
-- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(9)`
-- [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(9)`
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (38)
+- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(10)`
+- [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(11)`
 - [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(8)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(9)`
 
@@ -221,6 +221,7 @@
 | [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | ✅ 是 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | ✅ 是 | OpenClaw AI 助理離線免安裝整合環境 |
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | ✅ 是 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
+| [**OpenHands/OpenHands**](https://github.com/OpenHands/OpenHands) | ✅ 是 | 🙌 OpenHands: AI-Driven Development |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -238,6 +239,8 @@
 | [**voidful/hung-yi-lee-skill**](https://github.com/voidful/hung-yi-lee-skill) | ✅ 是 | 蒸餾李宏毅老師深度學習與 Karpathy LLM 概念之 Agent 技能模組 |
 | [**htdt/godogen**](https://github.com/htdt/godogen) | ✅ 是 | 利用 Claude Code / Codex 自主進行 Godot 與 Bevy 遊戲開發的 AI 系統 |
 | [**nexu-io/open-design**](https://github.com/nexu-io/open-design) | ✅ 是 | AI 程式設計代理的 UI 設計與視覺規範外掛 |
+| [**typesafe-ai/skills**](https://github.com/typesafe-ai/skills) | ❌ 否 | Agent skills for building with TypeSafe's System One API |
+| [**kerpopule/hermes-jev-skills**](https://github.com/kerpopule/hermes-jev-skills) | ✅ 是 | Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex) |
 
 [⬆ 回到目錄導覽](#toc)
 
