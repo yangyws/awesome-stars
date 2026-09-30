@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-135-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-09-29-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-144-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-09-30-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -26,14 +26,14 @@
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (41)
-- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(11)`
-- [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(11)`
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (48)
+- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(16)`
+- [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(13)`
 - [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(9)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(10)`
 
-### 📂 [🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)](#system-utilities-and-iot) (19)
-- [作業系統優化與瘦身 (OS Optimizer & Debloat)](#os-optimizer-and-debloat) `(5)`
+### 📂 [🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)](#system-utilities-and-iot) (20)
+- [作業系統優化與瘦身 (OS Optimizer & Debloat)](#os-optimizer-and-debloat) `(6)`
 - [實用周邊與日常生產力工具 (Productivity Tools)](#productivity-tools) `(12)`
 - [嵌入式硬體與韌體工具 (Embedded & IoT)](#embedded-and-iot) `(2)`
 
@@ -222,6 +222,11 @@
 | [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | ✅ 是 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | ✅ 是 | OpenClaw AI 助理離線免安裝整合環境 |
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | ✅ 是 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
+| [**CoplayDev/unity-mcp**](https://github.com/CoplayDev/unity-mcp) | ✅ 是 | Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity. |
+| [**gptme/gptme**](https://github.com/gptme/gptme) | ✅ 是 | Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top! |
+| [**mvanhorn/cli-printing-press**](https://github.com/mvanhorn/cli-printing-press) | ✅ 是 | Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands. |
+| [**IvanMurzak/Unity-MCP**](https://github.com/IvanMurzak/Unity-MCP) | ✅ 是 | AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free. |
+| [**vectorize-io/hindsight**](https://github.com/vectorize-io/hindsight) | ✅ 是 | Hindsight: Agent Memory That Learns |
 | [**iFurySt/open-browser-use**](https://github.com/iFurySt/open-browser-use) | ✅ 是 | 🔮 Platform-neutral Browser Use for AI agents: real Chrome automation with a CLI + SDKs, no lock-in, dead simple. |
 | [**OpenHands/OpenHands**](https://github.com/OpenHands/OpenHands) | ✅ 是 | 🙌 OpenHands: AI-Driven Development |
 
@@ -241,6 +246,8 @@
 | [**voidful/hung-yi-lee-skill**](https://github.com/voidful/hung-yi-lee-skill) | ✅ 是 | 蒸餾李宏毅老師深度學習與 Karpathy LLM 概念之 Agent 技能模組 |
 | [**htdt/godogen**](https://github.com/htdt/godogen) | ✅ 是 | 利用 Claude Code / Codex 自主進行 Godot 與 Bevy 遊戲開發的 AI 系統 |
 | [**nexu-io/open-design**](https://github.com/nexu-io/open-design) | ✅ 是 | AI 程式設計代理的 UI 設計與視覺規範外掛 |
+| [**multica-ai/andrej-karpathy-skills**](https://github.com/multica-ai/andrej-karpathy-skills) | ❌ 否 | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
+| [**xingkongliang/skills-manager**](https://github.com/xingkongliang/skills-manager) | ✅ 是 | A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more. |
 | [**typesafe-ai/skills**](https://github.com/typesafe-ai/skills) | ❌ 否 | Agent skills for building with TypeSafe's System One API |
 | [**kerpopule/hermes-jev-skills**](https://github.com/kerpopule/hermes-jev-skills) | ✅ 是 | Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex) |
 
@@ -297,6 +304,7 @@
 | [**AdventDevInc/kudu**](https://github.com/AdventDevInc/kudu) | ✅ 是 | 跨平台 (Win/Mac/Linux) 開源垃圾清理、快取掃描與安全管理工具 |
 | [**builtbybel/FluentTweaker**](https://github.com/builtbybel/FluentTweaker) | ✅ 是 | 微軟風格 Fluent 介面之 Windows 深度調校輔助工具 |
 | [**apple/container**](https://github.com/apple/container) | ✅ 是 | Apple 官方開源用於 macOS 上建立與執行 Linux 容器的輕量工具 |
+| [**awesome-selfhosted/awesome-selfhosted**](https://github.com/awesome-selfhosted/awesome-selfhosted) | ❌ 否 | A list of Free Software network services and web applications which can be hosted on your own servers |
 
 [⬆ 回到目錄導覽](#toc)
 
