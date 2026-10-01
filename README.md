@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-144-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-09-30-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-146-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-01-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -26,8 +26,8 @@
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (48)
-- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(16)`
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (50)
+- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(18)`
 - [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(13)`
 - [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(9)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(10)`
@@ -222,6 +222,8 @@
 | [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | ✅ 是 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | ✅ 是 | OpenClaw AI 助理離線免安裝整合環境 |
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | ✅ 是 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
+| [**dickwu/apple-design-skill**](https://github.com/dickwu/apple-design-skill) | ✅ 是 | Cross-platform UI/UX design reviewer based on Apple HIG. Works with Flutter, Tauri, Electron, React Native. Compatible with Claude Code, Cursor, Codex. |
+| [**simular-ai/Agent-S**](https://github.com/simular-ai/Agent-S) | ✅ 是 | Agent S: an open agentic framework that uses computers like a human |
 | [**CoplayDev/unity-mcp**](https://github.com/CoplayDev/unity-mcp) | ✅ 是 | Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity. |
 | [**gptme/gptme**](https://github.com/gptme/gptme) | ✅ 是 | Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top! |
 | [**mvanhorn/cli-printing-press**](https://github.com/mvanhorn/cli-printing-press) | ✅ 是 | Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands. |
