@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-155-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-05-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-157-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-06-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -26,9 +26,9 @@
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (57)
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (58)
 - [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(23)`
-- [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(14)`
+- [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(15)`
 - [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(9)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(11)`
 
@@ -253,6 +253,7 @@
 | [**voidful/hung-yi-lee-skill**](https://github.com/voidful/hung-yi-lee-skill) | ✅ 是 | 蒸餾李宏毅老師深度學習與 Karpathy LLM 概念之 Agent 技能模組 |
 | [**htdt/godogen**](https://github.com/htdt/godogen) | ✅ 是 | 利用 Claude Code / Codex 自主進行 Godot 與 Bevy 遊戲開發的 AI 系統 |
 | [**nexu-io/open-design**](https://github.com/nexu-io/open-design) | ✅ 是 | AI 程式設計代理的 UI 設計與視覺規範外掛 |
+| [**StayLameBro/backburner**](https://github.com/StayLameBro/backburner) | ✅ 是 | Your iPhone helps your Mac run a 27B model: faster prompt reading and more context over a USB-C cable |
 | [**cloudflare/security-audit-skill**](https://github.com/cloudflare/security-audit-skill) | ✅ 是 | A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings |
 | [**multica-ai/andrej-karpathy-skills**](https://github.com/multica-ai/andrej-karpathy-skills) | ❌ 否 | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
 | [**xingkongliang/skills-manager**](https://github.com/xingkongliang/skills-manager) | ✅ 是 | A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more. |
