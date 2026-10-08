@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-158-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-07-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-161-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-08-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -26,10 +26,10 @@
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (59)
-- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(23)`
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (62)
+- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(25)`
 - [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(15)`
-- [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(9)`
+- [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(10)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(12)`
 
 ### 📂 [🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)](#system-utilities-and-iot) (20)
@@ -222,6 +222,8 @@
 | [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | ✅ 是 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | ✅ 是 | OpenClaw AI 助理離線免安裝整合環境 |
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | ✅ 是 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
+| [**mastercook777/Heimdall-AYN-Thor-Assistant**](https://github.com/mastercook777/Heimdall-AYN-Thor-Assistant) | ✅ 是 | An open-source lower-screen assistant for AYN Thor. |
+| [**mars-tw/anti-gambling-trader-tw**](https://github.com/mars-tw/anti-gambling-trader-tw) | ✅ 是 | 免費開源的投資反詐、交易統計與自動化交易程式工具：預設 PaperBroker，提供 14 種券商／交易所選項；交易紀錄分析在本機執行。 |
 | [**anthropics/claude-code**](https://github.com/anthropics/claude-code) | ✅ 是 | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. |
 | [**Tencent/WeKnora**](https://github.com/Tencent/WeKnora) | ✅ 是 | Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki. |
 | [**rohitg00/ai-engineering-from-scratch**](https://github.com/rohitg00/ai-engineering-from-scratch) | ✅ 是 | Learn it. Build it. Ship it for others. |
@@ -275,6 +277,7 @@
 | [**Mininglamp-AI/Mano-P**](https://github.com/Mininglamp-AI/Mano-P) | ✅ 是 | 開源邊緣裝置視覺-語言-動作 (GUI-VLA) 操控模型 |
 | [**Edge0-AI/Edge0**](https://github.com/Edge0-AI/Edge0) | ✅ 是 | 邊緣端 AI 自動化與推論架構專案 |
 | [**ornith-ai/Ornith-1**](https://github.com/ornith-ai/Ornith-1) | ✅ 是 | 輕量化多模態邊緣推論模型專案 |
+| [**jasoncheng7115/jt-ipam**](https://github.com/jasoncheng7115/jt-ipam) | ✅ 是 | A self-hosted, integration-focused IPAM, independently developed with an operation flow familiar to phpIPAM users, deeply integrated with multiple DNS servers, LibreNMS, OPNsense, Proxmox VE, Wazuh, and a local LLM. |
 | [**andrew-waters/orchard**](https://github.com/andrew-waters/orchard) | ✅ 是 | The native UI for Apple Containers and (o)MLX sandboxes, written in swift as a replacement for docker desktop |
 
 [⬆ 回到目錄導覽](#toc)
