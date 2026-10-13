@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-162-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-12-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-164-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-13-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -26,8 +26,8 @@
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (63)
-- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(26)`
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (64)
+- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(27)`
 - [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(15)`
 - [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(10)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(12)`
@@ -222,6 +222,7 @@
 | [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | ✅ 是 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | ✅ 是 | OpenClaw AI 助理離線免安裝整合環境 |
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | ✅ 是 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
+| [**TauricResearch/TradingAgents**](https://github.com/TauricResearch/TradingAgents) | ✅ 是 | TradingAgents: Multi-Agents LLM Financial Trading Framework |
 | [**morluto/rea**](https://github.com/morluto/rea) | ✅ 是 | Reverse engineer anything with agents, from app behavior down to native binaries. |
 | [**mastercook777/Heimdall-AYN-Thor-Assistant**](https://github.com/mastercook777/Heimdall-AYN-Thor-Assistant) | ✅ 是 | An open-source lower-screen assistant for AYN Thor. |
 | [**mars-tw/anti-gambling-trader-tw**](https://github.com/mars-tw/anti-gambling-trader-tw) | ✅ 是 | 免費開源的投資反詐、交易統計與自動化交易程式工具：預設 PaperBroker，提供 14 種券商／交易所選項；交易紀錄分析在本機執行。 |
