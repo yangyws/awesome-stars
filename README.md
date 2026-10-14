@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-164-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-13-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-167-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-14-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -32,8 +32,8 @@
 - [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(10)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(12)`
 
-### 📂 [🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)](#system-utilities-and-iot) (20)
-- [作業系統優化與瘦身 (OS Optimizer & Debloat)](#os-optimizer-and-debloat) `(6)`
+### 📂 [🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)](#system-utilities-and-iot) (21)
+- [作業系統優化與瘦身 (OS Optimizer & Debloat)](#os-optimizer-and-debloat) `(7)`
 - [實用周邊與日常生產力工具 (Productivity Tools)](#productivity-tools) `(12)`
 - [嵌入式硬體與韌體工具 (Embedded & IoT)](#embedded-and-iot) `(2)`
 
@@ -320,6 +320,7 @@
 | [**AdventDevInc/kudu**](https://github.com/AdventDevInc/kudu) | ✅ 是 | 跨平台 (Win/Mac/Linux) 開源垃圾清理、快取掃描與安全管理工具 |
 | [**builtbybel/FluentTweaker**](https://github.com/builtbybel/FluentTweaker) | ✅ 是 | 微軟風格 Fluent 介面之 Windows 深度調校輔助工具 |
 | [**apple/container**](https://github.com/apple/container) | ✅ 是 | Apple 官方開源用於 macOS 上建立與執行 Linux 容器的輕量工具 |
+| [**opennookorg/betterwispr**](https://github.com/opennookorg/betterwispr) | ✅ 是 | Free, open-source, local-first dictation app for macOS. Hold a shortcut, speak, and text is typed into any app. On-device speech-to-text with Whisper, Parakeet and Apple speech. Private, offline, open-source Wispr Flow alternative. |
 | [**awesome-selfhosted/awesome-selfhosted**](https://github.com/awesome-selfhosted/awesome-selfhosted) | ❌ 否 | A list of Free Software network services and web applications which can be hosted on your own servers |
 
 [⬆ 回到目錄導覽](#toc)
