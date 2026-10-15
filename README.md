@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-167-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-14-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-168-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-15-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -14,12 +14,12 @@
 
 ### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (5)
 
-### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (55)
+### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (57)
 - [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(13)`
-- [開源模擬器專案 (Emulators)](#emulators) `(13)`
+- [開源模擬器專案 (Emulators)](#emulators) `(14)`
 - [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(18)`
 - [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(5)`
-- [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(6)`
+- [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(7)`
 
 ### 📂 [📡 串流、遠端遙控與跨裝置協作 (Streaming & Remote Control)](#streaming-and-remote-control) (18)
 - [Moonlight & Sunshine 生態系](#moonlight-and-sunshine) `(6)`
@@ -97,6 +97,7 @@
 | [**ARMSX2/ARMSX2**](https://github.com/ARMSX2/ARMSX2) | ✅ 是 | PlayStation 2 模擬器 ARM64 Android 移植專案 |
 | [**ARMSX2/ARMSX3**](https://github.com/ARMSX2/ARMSX3) | ✅ 是 | RPCS3 (PS3 模擬器) 之 ARM64 Android 移植專案 |
 | [**rfandango/XenDroid**](https://github.com/rfandango/XenDroid) | ✅ 是 | XenDroid 模擬器相關核心與執行環境移植 |
+| [**lidor30/pokedaisy**](https://github.com/lidor30/pokedaisy) | ✅ 是 | PokeDaisy is a GBA player for dual-screen Android handhelds, made for FireRed, LeafGreen, Emerald, Ruby, Sapphire and popular ROM hacks. |
 | [**nachoverdon/Dolphin-MMJR2**](https://github.com/nachoverdon/Dolphin-MMJR2) | ✅ 是 | Dolphin \|MMJR2\| is a Gamecube/Wii Emulator for Android devices; based on Dolphin Official dev source code. Hence, the aim is to get the newer features, fixes, updates of Dolphin Official BUT with the performance improvements  of Dolphin \|MMJR\| (work-in-progress) |
 
 [⬆ 回到目錄導覽](#toc)
@@ -114,7 +115,7 @@
 | [**samyost1/zelda3-android**](https://github.com/samyost1/zelda3-android) | ✅ 是 | 薩爾達傳說：眾神的三角神力 Android 原生反編譯移植版 |
 | [**viik4/iisu-asset-tool**](https://github.com/viik4/iisu-asset-tool) | ✅ 是 | 跨平台遊戲封面與客製化啟動器資源處理工具 |
 | [**FrankBarretta/LSFG-Android**](https://github.com/FrankBarretta/LSFG-Android) | ❌ 否 | Lossless Scaling 幀生成演算法之 Android 應用實驗專案 |
-| [**rakanki911/DLSS5-Swapper**](https://github.com/rakanki911/DLSS5-Swapper) | ✅ 是 | 一鍵安裝、調節與還原遊戲中 DLSS / FSR / XeSS 檔案與 OptiScaler 支援 |
+| [**rakanki911/DLSS5-Swapper**](https://github.com/rakanki911/DLSS5-Swapper) | ❌ 否 | 一鍵安裝、調節與還原遊戲中 DLSS / FSR / XeSS 檔案與 OptiScaler 支援 |
 | [**xXJSONDeruloXx/decky-dlss-enabler**](https://github.com/xXJSONDeruloXx/decky-dlss-enabler) | ✅ 是 | SteamOS / Steam Deck 之 DLSS Enabler 外掛補丁工具 |
 | [**TexturesGuide/ALBW_4K_Setup**](https://github.com/TexturesGuide/ALBW_4K_Setup) | ❌ 否 | 薩爾達傳說：眾神的三角神力 2 4K 高畫質材質包設定指南 |
 | [**TexturesGuide/MM3D_4K_SetupGuide**](https://github.com/TexturesGuide/MM3D_4K_SetupGuide) | ❌ 否 | 薩爾達傳說：穆修拉的面具 3D 4K 材質套件設定指南 |
@@ -150,6 +151,7 @@
 | [**OpenStickCommunity/GP2040-CE**](https://github.com/OpenStickCommunity/GP2040-CE) | ✅ 是 | 基於 RP2040 的開源多平台低延遲搖桿/格鬥手把韌體 |
 | [**sezanzeb/input-remapper**](https://github.com/sezanzeb/input-remapper) | ✅ 是 | Linux / 掌機裝置按鍵映射與巨集客製化工具 |
 | [**SplitScreen-Me/splitscreenme-nucleus**](https://github.com/SplitScreen-Me/splitscreenme-nucleus) | ✅ 是 | Nucleus Co-op 本地多人分割螢幕同樂多開管理工具 |
+| [**Jreese702/DS-Forever**](https://github.com/Jreese702/DS-Forever) | ✅ 是 | DS Forever: a two-screen, controller-first companion for WoW Forever on the AYN Thor |
 | [**distilledorion-sketch/Initial-D-Arcade-Stage-3-Reimagined**](https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Reimagined) | ✅ 是 | Fan-made Initial D Arcade Stage 3 project with Unity rendering, native gameplay, online battles, community times and replays. |
 
 [⬆ 回到目錄導覽](#toc)
