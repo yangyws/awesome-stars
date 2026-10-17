@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
 [![Stars Count](https://img.shields.io/badge/Total%20Stars-168-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-16-green?style=for-the-badge)](https://github.com/yangyws)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-17-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -232,7 +232,7 @@
 | [**Tencent/WeKnora**](https://github.com/Tencent/WeKnora) | ✅ 是 | Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki. |
 | [**rohitg00/ai-engineering-from-scratch**](https://github.com/rohitg00/ai-engineering-from-scratch) | ✅ 是 | Learn AI Engineering! Learn it. Build it. Ship it for others. |
 | [**alibaba/open-code-review**](https://github.com/alibaba/open-code-review) | ✅ 是 | Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible. |
-| [**stablyai/orca**](https://github.com/stablyai/orca) | ✅ 是 | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime. |
+| [**stablyai/orca**](https://github.com/stablyai/orca) | ✅ 是 | Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime. |
 | [**dickwu/apple-design-skill**](https://github.com/dickwu/apple-design-skill) | ✅ 是 | Cross-platform UI/UX design reviewer based on Apple HIG. Works with Flutter, Tauri, Electron, React Native. Compatible with Claude Code, Cursor, Codex. |
 | [**simular-ai/Agent-S**](https://github.com/simular-ai/Agent-S) | ✅ 是 | Agent S: an open agentic framework that uses computers like a human |
 | [**CoplayDev/unity-mcp**](https://github.com/CoplayDev/unity-mcp) | ✅ 是 | Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity. |
