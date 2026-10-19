@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-168-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-18-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-171-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-19-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -26,8 +26,8 @@
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (64)
-- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(27)`
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (66)
+- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(29)`
 - [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(15)`
 - [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(10)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(12)`
@@ -97,7 +97,7 @@
 | [**ARMSX2/ARMSX2**](https://github.com/ARMSX2/ARMSX2) | ✅ 是 | PlayStation 2 模擬器 ARM64 Android 移植專案 |
 | [**ARMSX2/ARMSX3**](https://github.com/ARMSX2/ARMSX3) | ✅ 是 | RPCS3 (PS3 模擬器) 之 ARM64 Android 移植專案 |
 | [**rfandango/XenDroid**](https://github.com/rfandango/XenDroid) | ✅ 是 | XenDroid 模擬器相關核心與執行環境移植 |
-| [**lidor30/pokedaisy**](https://github.com/lidor30/pokedaisy) | ✅ 是 | PokeDaisy is a GBA player for dual-screen Android handhelds, made for FireRed, LeafGreen, Emerald, Ruby, Sapphire and popular ROM hacks. |
+| [**lidor30/pokedaisy**](https://github.com/lidor30/pokedaisy) | ✅ 是 | A Game Boy, Game Boy Color and GBA player for Android handhelds with two screens or one, with a live companion for Pokémon games and ROM hacks. |
 | [**nachoverdon/Dolphin-MMJR2**](https://github.com/nachoverdon/Dolphin-MMJR2) | ✅ 是 | Dolphin \|MMJR2\| is a Gamecube/Wii Emulator for Android devices; based on Dolphin Official dev source code. Hence, the aim is to get the newer features, fixes, updates of Dolphin Official BUT with the performance improvements  of Dolphin \|MMJR\| (work-in-progress) |
 
 [⬆ 回到目錄導覽](#toc)
@@ -224,6 +224,8 @@
 | [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | ✅ 是 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | ✅ 是 | OpenClaw AI 助理離線免安裝整合環境 |
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | ✅ 是 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
+| [**XiaoPuOuO/openchatx-mcp**](https://github.com/XiaoPuOuO/openchatx-mcp) | ✅ 是 | Turn ChatGPT into a local agent runtime. Operate your computer, use local tools, discover MCP servers, and delegate work to your own models through one MCP connection. |
+| [**HKUDS/CLI-Anything**](https://github.com/HKUDS/CLI-Anything) | ✅ 是 | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ |
 | [**TauricResearch/TradingAgents**](https://github.com/TauricResearch/TradingAgents) | ✅ 是 | TradingAgents: Multi-Agents LLM Financial Trading Framework |
 | [**morluto/rea**](https://github.com/morluto/rea) | ✅ 是 | Reverse engineer anything with agents, from app behavior down to native binaries. |
 | [**mastercook777/Heimdall-AYN-Thor-Assistant**](https://github.com/mastercook777/Heimdall-AYN-Thor-Assistant) | ✅ 是 | An open-source lower-screen assistant for AYN Thor. |
