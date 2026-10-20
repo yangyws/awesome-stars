@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-171-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-19-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-173-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-20-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -16,10 +16,10 @@
 
 ### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (57)
 - [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(13)`
-- [開源模擬器專案 (Emulators)](#emulators) `(14)`
+- [開源模擬器專案 (Emulators)](#emulators) `(15)`
 - [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(18)`
 - [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(5)`
-- [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(7)`
+- [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(6)`
 
 ### 📂 [📡 串流、遠端遙控與跨裝置協作 (Streaming & Remote Control)](#streaming-and-remote-control) (18)
 - [Moonlight & Sunshine 生態系](#moonlight-and-sunshine) `(6)`
@@ -32,8 +32,8 @@
 - [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(10)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(12)`
 
-### 📂 [🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)](#system-utilities-and-iot) (21)
-- [作業系統優化與瘦身 (OS Optimizer & Debloat)](#os-optimizer-and-debloat) `(7)`
+### 📂 [🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)](#system-utilities-and-iot) (22)
+- [作業系統優化與瘦身 (OS Optimizer & Debloat)](#os-optimizer-and-debloat) `(8)`
 - [實用周邊與日常生產力工具 (Productivity Tools)](#productivity-tools) `(12)`
 - [嵌入式硬體與韌體工具 (Embedded & IoT)](#embedded-and-iot) `(2)`
 
@@ -97,6 +97,7 @@
 | [**ARMSX2/ARMSX2**](https://github.com/ARMSX2/ARMSX2) | ✅ 是 | PlayStation 2 模擬器 ARM64 Android 移植專案 |
 | [**ARMSX2/ARMSX3**](https://github.com/ARMSX2/ARMSX3) | ✅ 是 | RPCS3 (PS3 模擬器) 之 ARM64 Android 移植專案 |
 | [**rfandango/XenDroid**](https://github.com/rfandango/XenDroid) | ✅ 是 | XenDroid 模擬器相關核心與執行環境移植 |
+| [**abduzeedo/mapc-engine**](https://github.com/abduzeedo/mapc-engine) | ✅ 是 | The open-source game-running core of MaPC: Wine engines, graphics backends, store integrations and the mapc CLI |
 | [**lidor30/pokedaisy**](https://github.com/lidor30/pokedaisy) | ✅ 是 | A Game Boy, Game Boy Color and GBA player for Android handhelds with two screens or one, with a live companion for Pokémon games and ROM hacks. |
 | [**nachoverdon/Dolphin-MMJR2**](https://github.com/nachoverdon/Dolphin-MMJR2) | ✅ 是 | Dolphin \|MMJR2\| is a Gamecube/Wii Emulator for Android devices; based on Dolphin Official dev source code. Hence, the aim is to get the newer features, fixes, updates of Dolphin Official BUT with the performance improvements  of Dolphin \|MMJR\| (work-in-progress) |
 
@@ -151,7 +152,6 @@
 | [**OpenStickCommunity/GP2040-CE**](https://github.com/OpenStickCommunity/GP2040-CE) | ✅ 是 | 基於 RP2040 的開源多平台低延遲搖桿/格鬥手把韌體 |
 | [**sezanzeb/input-remapper**](https://github.com/sezanzeb/input-remapper) | ✅ 是 | Linux / 掌機裝置按鍵映射與巨集客製化工具 |
 | [**SplitScreen-Me/splitscreenme-nucleus**](https://github.com/SplitScreen-Me/splitscreenme-nucleus) | ✅ 是 | Nucleus Co-op 本地多人分割螢幕同樂多開管理工具 |
-| [**Jreese702/DS-Forever**](https://github.com/Jreese702/DS-Forever) | ✅ 是 | DS Forever: a two-screen, controller-first companion for WoW Forever on the AYN Thor |
 | [**distilledorion-sketch/Initial-D-Arcade-Stage-3-Reimagined**](https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Reimagined) | ✅ 是 | Fan-made Initial D Arcade Stage 3 project with Unity rendering, native gameplay, online battles, community times and replays. |
 
 [⬆ 回到目錄導覽](#toc)
@@ -324,6 +324,7 @@
 | [**AdventDevInc/kudu**](https://github.com/AdventDevInc/kudu) | ✅ 是 | 跨平台 (Win/Mac/Linux) 開源垃圾清理、快取掃描與安全管理工具 |
 | [**builtbybel/FluentTweaker**](https://github.com/builtbybel/FluentTweaker) | ✅ 是 | 微軟風格 Fluent 介面之 Windows 深度調校輔助工具 |
 | [**apple/container**](https://github.com/apple/container) | ✅ 是 | Apple 官方開源用於 macOS 上建立與執行 Linux 容器的輕量工具 |
+| [**Gathin23/cleanyourtv**](https://github.com/Gathin23/cleanyourtv) | ✅ 是 | Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. |
 | [**opennookorg/betterwispr**](https://github.com/opennookorg/betterwispr) | ✅ 是 | Free, open-source, local-first dictation app for macOS. Hold a shortcut, speak, and text is typed into any app. On-device speech-to-text with Whisper, Parakeet and Apple speech. Private, offline, open-source Wispr Flow alternative. |
 | [**awesome-selfhosted/awesome-selfhosted**](https://github.com/awesome-selfhosted/awesome-selfhosted) | ❌ 否 | A list of Free Software network services and web applications which can be hosted on your own servers |
 
