@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
 [![Stars Count](https://img.shields.io/badge/Total%20Stars-173-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-21-green?style=for-the-badge)](https://github.com/yangyws)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-22-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -236,7 +236,7 @@
 | [**alibaba/open-code-review**](https://github.com/alibaba/open-code-review) | ✅ 是 | Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible. |
 | [**stablyai/orca**](https://github.com/stablyai/orca) | ✅ 是 | Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime. |
 | [**dickwu/apple-design-skill**](https://github.com/dickwu/apple-design-skill) | ✅ 是 | Cross-platform UI/UX design reviewer based on Apple HIG. Works with Flutter, Tauri, Electron, React Native. Compatible with Claude Code, Cursor, Codex. |
-| [**simular-ai/Agent-S**](https://github.com/simular-ai/Agent-S) | ✅ 是 | Agent S: an open agentic framework that uses computers like a human |
+| [**simular-ai/Agent-S**](https://github.com/simular-ai/Agent-S) | ✅ 是 | Agent S: the state-of-the-art open source computer use agents |
 | [**CoplayDev/unity-mcp**](https://github.com/CoplayDev/unity-mcp) | ✅ 是 | Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity. |
 | [**gptme/gptme**](https://github.com/gptme/gptme) | ✅ 是 | Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top! |
 | [**mvanhorn/cli-printing-press**](https://github.com/mvanhorn/cli-printing-press) | ✅ 是 | Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands. |
