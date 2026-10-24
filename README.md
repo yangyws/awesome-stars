@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-173-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-23-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-175-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-24-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -14,12 +14,12 @@
 
 ### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (5)
 
-### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (57)
+### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (58)
 - [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(13)`
 - [開源模擬器專案 (Emulators)](#emulators) `(15)`
 - [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(18)`
 - [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(5)`
-- [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(6)`
+- [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(7)`
 
 ### 📂 [📡 串流、遠端遙控與跨裝置協作 (Streaming & Remote Control)](#streaming-and-remote-control) (18)
 - [Moonlight & Sunshine 生態系](#moonlight-and-sunshine) `(6)`
@@ -152,6 +152,7 @@
 | [**OpenStickCommunity/GP2040-CE**](https://github.com/OpenStickCommunity/GP2040-CE) | ✅ 是 | 基於 RP2040 的開源多平台低延遲搖桿/格鬥手把韌體 |
 | [**sezanzeb/input-remapper**](https://github.com/sezanzeb/input-remapper) | ✅ 是 | Linux / 掌機裝置按鍵映射與巨集客製化工具 |
 | [**SplitScreen-Me/splitscreenme-nucleus**](https://github.com/SplitScreen-Me/splitscreenme-nucleus) | ✅ 是 | Nucleus Co-op 本地多人分割螢幕同樂多開管理工具 |
+| [**playportdev/playport**](https://github.com/playportdev/playport) | ✅ 是 | Playport runs Windows games, 64-bit and now 32-bit, on a stock, non-jailbroken iPhone. Install a game from your library onto the phone, pick up a controller and press Play. The game runs on the phone's own CPU and GPU: no PC, no cloud, no stream. |
 | [**distilledorion-sketch/Initial-D-Arcade-Stage-3-Reimagined**](https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Reimagined) | ✅ 是 | Fan-made Initial D Arcade Stage 3 project with Unity rendering, native gameplay, online battles, community times and replays. |
 
 [⬆ 回到目錄導覽](#toc)
