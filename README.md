@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-175-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-24-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-177-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-25-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -14,11 +14,11 @@
 
 ### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (5)
 
-### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (58)
+### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (60)
 - [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(13)`
 - [開源模擬器專案 (Emulators)](#emulators) `(15)`
-- [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(18)`
-- [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(5)`
+- [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(19)`
+- [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(6)`
 - [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(7)`
 
 ### 📂 [📡 串流、遠端遙控與跨裝置協作 (Streaming & Remote Control)](#streaming-and-remote-control) (18)
@@ -26,8 +26,8 @@
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (66)
-- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(29)`
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (67)
+- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(30)`
 - [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(15)`
 - [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(10)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(12)`
@@ -126,6 +126,7 @@
 | [**igawa6/dusklight**](https://github.com/igawa6/dusklight) | ✅ 是 | Dusklight 移植專案之社群維護分支 |
 | [**huangqian8/SwitchScript**](https://github.com/huangqian8/SwitchScript) | ✅ 是 | 任天堂 Switch 大氣層客製化引導整合包產生指令碼 |
 | [**easyworld/hekate**](https://github.com/easyworld/hekate) | ✅ 是 | 任天堂 Switch 繁體/簡體中文圖形介面引導載入程式 (Hekate) |
+| [**wesbos/3d-model-anything**](https://github.com/wesbos/3d-model-anything) | ✅ 是 | Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser. |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -139,6 +140,7 @@
 | [**brunodev85/winlator**](https://github.com/brunodev85/winlator) | ✅ 是 | 經典 Android 執行 Windows (x86_64) 應用程式與 PC 遊戲之轉譯容器 |
 | [**Producdevity/gamehub-lite**](https://github.com/Producdevity/gamehub-lite) | ✅ 是 | GameHub Lite 社群維護修改版，支援掌機遊戲啟動 |
 | [**The412Banner/BannerHub**](https://github.com/The412Banner/BannerHub) | ✅ 是 | GameHub ReVanced 增強版，擴展 GOG、Epic 支援與介面自訂 |
+| [**boykopovar/AnyPS5**](https://github.com/boykopovar/AnyPS5) | ✅ 是 | Tool for automatic PS5 executables porting to Linux and Windows |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -220,7 +222,7 @@
 | [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) | ✅ 是 | Nous Research 開源自主 AI 代理系統 (Hermes Agent) |
 | [**NousResearch/hermes-plugin-backsearch**](https://github.com/NousResearch/hermes-plugin-backsearch) | ✅ 是 | Hermes Agent 外掛：提供時間切片歷史新聞搜尋與擷取 |
 | [**AstrBotDevs/AstrBot**](https://github.com/AstrBotDevs/AstrBot) | ✅ 是 | 多平台社群軟體 (Discord/Telegram 等) AI 代理與 LLM 外掛框架 |
-| [**agenvoy/Agenvoy**](https://github.com/agenvoy/Agenvoy) | ✅ 是 | 單一 Go 執行檔自託管 AI 代理，具備自我修復工具與沙盒測試能力 |
+| [**agenvoy/Agenvoy**](https://github.com/pardnchiu/Agenvoy) | ✅ 是 | 單一 Go 執行檔自託管 AI 代理，具備自我修復工具與沙盒測試能力 |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | ✅ 是 | 多模態 GUI 視覺操控 AI 代理框架 (UI-TARS) |
 | [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | ✅ 是 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | ✅ 是 | OpenClaw AI 助理離線免安裝整合環境 |
@@ -245,6 +247,7 @@
 | [**vectorize-io/hindsight**](https://github.com/vectorize-io/hindsight) | ✅ 是 | Hindsight: Agent Memory That Learns |
 | [**iFurySt/open-browser-use**](https://github.com/iFurySt/open-browser-use) | ✅ 是 | 🔮 Platform-neutral Browser Use for AI agents: real Chrome automation with a CLI + SDKs, no lock-in, dead simple. |
 | [**OpenHands/OpenHands**](https://github.com/OpenHands/OpenHands) | ✅ 是 | 🙌 OpenHands: AI-Driven Development |
+| [**pardnchiu/Agenvoy**](https://github.com/pardnchiu/Agenvoy) | ✅ 是 | A local AI agent harness in Go that runs 24/7 with auto-built tools, MCP, and Ollama |
 
 [⬆ 回到目錄導覽](#toc)
 
