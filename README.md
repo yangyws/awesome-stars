@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-178-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-26-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-181-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-10-27-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -14,11 +14,11 @@
 
 ### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (5)
 
-### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (60)
+### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (63)
 - [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(13)`
 - [開源模擬器專案 (Emulators)](#emulators) `(15)`
 - [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(19)`
-- [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(6)`
+- [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(9)`
 - [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(7)`
 
 ### 📂 [📡 串流、遠端遙控與跨裝置協作 (Streaming & Remote Control)](#streaming-and-remote-control) (18)
@@ -140,6 +140,9 @@
 | [**brunodev85/winlator**](https://github.com/brunodev85/winlator) | ✅ 是 | 經典 Android 執行 Windows (x86_64) 應用程式與 PC 遊戲之轉譯容器 |
 | [**Producdevity/gamehub-lite**](https://github.com/Producdevity/gamehub-lite) | ✅ 是 | GameHub Lite 社群維護修改版，支援掌機遊戲啟動 |
 | [**The412Banner/BannerHub**](https://github.com/The412Banner/BannerHub) | ✅ 是 | GameHub ReVanced 增強版，擴展 GOG、Epic 支援與介面自訂 |
+| [**KytyPS5/KytyPS5**](https://github.com/KytyPS5/KytyPS5) | ✅ 是 | PlayStation 5 translation layer for Windows, Linux and macOS |
+| [**tarek369/KytyPS5-Android**](https://github.com/tarek369/KytyPS5-Android) | ✅ 是 | KytyPS5 Android port: PS5 games on Android ARM64 (FEXCore JIT + Vulkan on Mesa Turnip/Adreno). Status, roadmap and contributor guide in docs/android. |
+| [**erickmendes22/KytyPS5Plus-Android**](https://github.com/erickmendes22/KytyPS5Plus-Android) | ✅ 是 | KytyPS5 Android port: PS5 games on Android ARM64 (FEXCore JIT + Vulkan on Mesa Turnip/Adreno). Status, roadmap and contributor guide in docs/android. |
 | [**boykopovar/AnyPS5**](https://github.com/boykopovar/AnyPS5) | ✅ 是 | Tool for automatic PS5 executables porting to Linux and Windows |
 
 [⬆ 回到目錄導覽](#toc)
