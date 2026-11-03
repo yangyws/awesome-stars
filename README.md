@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-183-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-02-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-190-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-03-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -14,10 +14,10 @@
 
 ### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (5)
 
-### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (63)
-- [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(13)`
-- [開源模擬器專案 (Emulators)](#emulators) `(15)`
-- [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(19)`
+### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (69)
+- [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(14)`
+- [開源模擬器專案 (Emulators)](#emulators) `(19)`
+- [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(20)`
 - [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(9)`
 - [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(7)`
 
@@ -77,6 +77,7 @@
 | [**wang1025475397/Pegasus_GameRomManager**](https://github.com/wang1025475397/Pegasus_GameRomManager) | ❌ 否 | Pegasus 遊戲 ROM 管理工具，支援線上抓取遊戲媒體與封面資訊 |
 | [**retrohrai/Releases**](https://github.com/retrohrai/Releases) | ❌ 否 | RetroHR 發布庫，掌機復古遊戲相關支援套件 |
 | [**JoeCorrell/wemu-release**](https://github.com/JoeCorrell/wemu-release) | ❌ 否 | wemu 掌機模擬與啟動器發布版本 |
+| [**EstebanPdN/zelda-tmc-3ds**](https://github.com/EstebanPdN/zelda-tmc-3ds) | ✅ 是 | Native Nintendo 3DS port of The Legend of Zelda: The Minish Cap based on Project Picori |
 
 [⬆ 回到目錄導覽](#toc)
 
@@ -97,6 +98,10 @@
 | [**ARMSX2/ARMSX2**](https://github.com/ARMSX2/ARMSX2) | ✅ 是 | PlayStation 2 模擬器 ARM64 Android 移植專案 |
 | [**ARMSX2/ARMSX3**](https://github.com/ARMSX2/ARMSX3) | ✅ 是 | RPCS3 (PS3 模擬器) 之 ARM64 Android 移植專案 |
 | [**rfandango/XenDroid**](https://github.com/rfandango/XenDroid) | ✅ 是 | XenDroid 模擬器相關核心與執行環境移植 |
+| [**Djihads80/Eglantine**](https://github.com/Djihads80/Eglantine) | ✅ 是 | VERY experimental Nintendo Switch 2 emulator |
+| [**phforner0/Xendroid-Plus**](https://github.com/phforner0/Xendroid-Plus) | ✅ 是 | Xendroid+ is an enhanced fork of Xendroid, built to advance Xbox 360 emulation on Android. It expands on the original project with a focus on better performance, broader game compatibility, improved graphics and audio, and a more polished user experience. |
+| [**EstebanPdN/starwing-3ds**](https://github.com/EstebanPdN/starwing-3ds) | ✅ 是 | Nintendo 3DS dual-screen port of Star Fox / Starwing (SNES), based on Starfox Enhanced. |
+| [**EstebanPdN/zelda-alttp-3ds**](https://github.com/EstebanPdN/zelda-alttp-3ds) | ✅ 是 | Nintendo 3DS dual-screen port of Zelda A Link to the Past based on zelda3 |
 | [**abduzeedo/mapc-engine**](https://github.com/abduzeedo/mapc-engine) | ✅ 是 | The open-source game-running core of MaPC: Wine engines, graphics backends, store integrations and the mapc CLI |
 | [**lidor30/pokedaisy**](https://github.com/lidor30/pokedaisy) | ✅ 是 | A Game Boy, Game Boy Color and GBA player for Android handhelds with two screens or one, with a live companion for Pokémon games and ROM hacks. |
 | [**nachoverdon/Dolphin-MMJR2**](https://github.com/nachoverdon/Dolphin-MMJR2) | ✅ 是 | Dolphin \|MMJR2\| is a Gamecube/Wii Emulator for Android devices; based on Dolphin Official dev source code. Hence, the aim is to get the newer features, fixes, updates of Dolphin Official BUT with the performance improvements  of Dolphin \|MMJR\| (work-in-progress) |
@@ -126,6 +131,7 @@
 | [**igawa6/dusklight**](https://github.com/igawa6/dusklight) | ✅ 是 | Dusklight 移植專案之社群維護分支 |
 | [**huangqian8/SwitchScript**](https://github.com/huangqian8/SwitchScript) | ✅ 是 | 任天堂 Switch 大氣層客製化引導整合包產生指令碼 |
 | [**easyworld/hekate**](https://github.com/easyworld/hekate) | ✅ 是 | 任天堂 Switch 繁體/簡體中文圖形介面引導載入程式 (Hekate) |
+| [**VivaLaVent/ps5-bazzite-deck**](https://github.com/VivaLaVent/ps5-bazzite-deck) | ✅ 是 | Bazzite Deck (Steam Gaming Mode) images for the PS5 with working Game Mode, VCN and Wi-Fi |
 | [**wesbos/3d-model-anything**](https://github.com/wesbos/3d-model-anything) | ✅ 是 | Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser. |
 
 [⬆ 回到目錄導覽](#toc)
