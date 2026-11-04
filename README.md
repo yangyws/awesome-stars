@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-190-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-03-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-192-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-04-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -14,11 +14,11 @@
 
 ### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (5)
 
-### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (69)
-- [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(14)`
+### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (71)
+- [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(15)`
 - [開源模擬器專案 (Emulators)](#emulators) `(19)`
 - [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(20)`
-- [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(9)`
+- [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(10)`
 - [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(7)`
 
 ### 📂 [📡 串流、遠端遙控與跨裝置協作 (Streaming & Remote Control)](#streaming-and-remote-control) (18)
@@ -70,13 +70,14 @@
 | [**JoeCorrell/DualScreen-Launcher**](https://github.com/JoeCorrell/DualScreen-Launcher) | ❌ 否 | 雙螢幕專用 Android 啟動器 APK 發布頁（適用雙螢幕掌機） |
 | [**blacksheepmvp/mjolnir**](https://github.com/blacksheepmvp/mjolnir) | ✅ 是 | 客製化雙螢幕 Android 桌面啟動器 (Mjolnir) |
 | [**iisu-network/iiSU**](https://github.com/iisu-network/iiSU) | ❌ 否 | 視覺導向的 Android 掌機專屬啟動器 |
-| [**inssekt/CocoonFE**](https://github.com/inssekt/CocoonFE) | ✅ 是 | Cocoon 前端啟動器，針對掌機與模擬器打造 |
+| [**inssekt/CocoonFE**](https://github.com/KansoMirai/CocoonFE) | ✅ 是 | Cocoon 前端啟動器，針對掌機與模擬器打造 |
 | [**misobadev/neostation-frontend**](https://github.com/misobadev/neostation-frontend) | ✅ 是 | 跨平台復古模擬遊戲前端系統 (Neostation) |
 | [**AverageConsumer/R-Shop**](https://github.com/AverageConsumer/R-Shop) | ✅ 是 | 控制器優先的 Android 復古遊戲管理器，支援串接 RomM 與本地/網路來源 |
 | [**armada-os/armada**](https://github.com/armada-os/armada) | ✅ 是 | 類 SteamOS 風格的 ARM 架構掌機 Linux 發行版 |
 | [**wang1025475397/Pegasus_GameRomManager**](https://github.com/wang1025475397/Pegasus_GameRomManager) | ❌ 否 | Pegasus 遊戲 ROM 管理工具，支援線上抓取遊戲媒體與封面資訊 |
 | [**retrohrai/Releases**](https://github.com/retrohrai/Releases) | ❌ 否 | RetroHR 發布庫，掌機復古遊戲相關支援套件 |
 | [**JoeCorrell/wemu-release**](https://github.com/JoeCorrell/wemu-release) | ❌ 否 | wemu 掌機模擬與啟動器發布版本 |
+| [**VaderChen/AppleJuice**](https://github.com/VaderChen/AppleJuice) | ✅ 是 | Windows compatibility layer and native launcher for Apple Silicon Macs. Statically links AppleJuiceKernel for x86/x64 execution and maps Windows APIs to macOS and Metal. |
 | [**EstebanPdN/zelda-tmc-3ds**](https://github.com/EstebanPdN/zelda-tmc-3ds) | ✅ 是 | Native Nintendo 3DS port of The Legend of Zelda: The Minish Cap based on Project Picori |
 
 [⬆ 回到目錄導覽](#toc)
@@ -146,6 +147,7 @@
 | [**brunodev85/winlator**](https://github.com/brunodev85/winlator) | ✅ 是 | 經典 Android 執行 Windows (x86_64) 應用程式與 PC 遊戲之轉譯容器 |
 | [**Producdevity/gamehub-lite**](https://github.com/Producdevity/gamehub-lite) | ✅ 是 | GameHub Lite 社群維護修改版，支援掌機遊戲啟動 |
 | [**The412Banner/BannerHub**](https://github.com/The412Banner/BannerHub) | ✅ 是 | GameHub ReVanced 增強版，擴展 GOG、Epic 支援與介面自訂 |
+| [**fxgl/steamac**](https://github.com/fxgl/steamac) | ✅ 是 | Valve's official ARM64 SteamOS in a lightweight VM on Apple Silicon: libkrun + Venus + MoltenVK, controllers, CoreAudio sound |
 | [**KytyPS5/KytyPS5**](https://github.com/KytyPS5/KytyPS5) | ✅ 是 | PlayStation 5 translation layer for Windows, Linux and macOS |
 | [**tarek369/KytyPS5-Android**](https://github.com/tarek369/KytyPS5-Android) | ✅ 是 | KytyPS5 Android port: PS5 games on Android ARM64 (FEXCore JIT + Vulkan on Mesa Turnip/Adreno). Status, roadmap and contributor guide in docs/android. |
 | [**erickmendes22/KytyPS5Plus-Android**](https://github.com/erickmendes22/KytyPS5Plus-Android) | ✅ 是 | KytyPS5 Android port: PS5 games on Android ARM64 (FEXCore JIT + Vulkan on Mesa Turnip/Adreno). Status, roadmap and contributor guide in docs/android. |
