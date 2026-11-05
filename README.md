@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-192-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-04-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-194-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-05-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -14,11 +14,11 @@
 
 ### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (5)
 
-### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (71)
-- [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(15)`
+### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (72)
+- [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(16)`
 - [開源模擬器專案 (Emulators)](#emulators) `(19)`
-- [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(20)`
-- [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(10)`
+- [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(19)`
+- [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(11)`
 - [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(7)`
 
 ### 📂 [📡 串流、遠端遙控與跨裝置協作 (Streaming & Remote Control)](#streaming-and-remote-control) (18)
@@ -78,6 +78,7 @@
 | [**retrohrai/Releases**](https://github.com/retrohrai/Releases) | ❌ 否 | RetroHR 發布庫，掌機復古遊戲相關支援套件 |
 | [**JoeCorrell/wemu-release**](https://github.com/JoeCorrell/wemu-release) | ❌ 否 | wemu 掌機模擬與啟動器發布版本 |
 | [**VaderChen/AppleJuice**](https://github.com/VaderChen/AppleJuice) | ✅ 是 | Windows compatibility layer and native launcher for Apple Silicon Macs. Statically links AppleJuiceKernel for x86/x64 execution and maps Windows APIs to macOS and Metal. |
+| [**VivaLaVent/ps5-bazzite-deck**](https://github.com/VivaLaVent/ps5-bazzite-deck) | ✅ 是 | Turn your PS5 into a Steam console: Bazzite with Steam Gaming Mode and one-click updates, built for the PlayStation 5 |
 | [**EstebanPdN/zelda-tmc-3ds**](https://github.com/EstebanPdN/zelda-tmc-3ds) | ✅ 是 | Native Nintendo 3DS port of The Legend of Zelda: The Minish Cap based on Project Picori |
 
 [⬆ 回到目錄導覽](#toc)
@@ -132,7 +133,6 @@
 | [**igawa6/dusklight**](https://github.com/igawa6/dusklight) | ✅ 是 | Dusklight 移植專案之社群維護分支 |
 | [**huangqian8/SwitchScript**](https://github.com/huangqian8/SwitchScript) | ✅ 是 | 任天堂 Switch 大氣層客製化引導整合包產生指令碼 |
 | [**easyworld/hekate**](https://github.com/easyworld/hekate) | ✅ 是 | 任天堂 Switch 繁體/簡體中文圖形介面引導載入程式 (Hekate) |
-| [**VivaLaVent/ps5-bazzite-deck**](https://github.com/VivaLaVent/ps5-bazzite-deck) | ✅ 是 | Bazzite Deck (Steam Gaming Mode) images for the PS5 with working Game Mode, VCN and Wi-Fi |
 | [**wesbos/3d-model-anything**](https://github.com/wesbos/3d-model-anything) | ✅ 是 | Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser. |
 
 [⬆ 回到目錄導覽](#toc)
@@ -147,6 +147,7 @@
 | [**brunodev85/winlator**](https://github.com/brunodev85/winlator) | ✅ 是 | 經典 Android 執行 Windows (x86_64) 應用程式與 PC 遊戲之轉譯容器 |
 | [**Producdevity/gamehub-lite**](https://github.com/Producdevity/gamehub-lite) | ✅ 是 | GameHub Lite 社群維護修改版，支援掌機遊戲啟動 |
 | [**The412Banner/BannerHub**](https://github.com/The412Banner/BannerHub) | ✅ 是 | GameHub ReVanced 增強版，擴展 GOG、Epic 支援與介面自訂 |
+| [**kuscholar/iDeck**](https://github.com/kuscholar/iDeck) | ✅ 是 | iDeck brings the Steam Big Picture experience to iOS |
 | [**fxgl/steamac**](https://github.com/fxgl/steamac) | ✅ 是 | Valve's official ARM64 SteamOS in a lightweight VM on Apple Silicon: libkrun + Venus + MoltenVK, controllers, CoreAudio sound |
 | [**KytyPS5/KytyPS5**](https://github.com/KytyPS5/KytyPS5) | ✅ 是 | PlayStation 5 translation layer for Windows, Linux and macOS |
 | [**tarek369/KytyPS5-Android**](https://github.com/tarek369/KytyPS5-Android) | ✅ 是 | KytyPS5 Android port: PS5 games on Android ARM64 (FEXCore JIT + Vulkan on Mesa Turnip/Adreno). Status, roadmap and contributor guide in docs/android. |
@@ -249,7 +250,7 @@
 | [**Tencent/WeKnora**](https://github.com/Tencent/WeKnora) | ✅ 是 | Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki. |
 | [**rohitg00/ai-engineering-from-scratch**](https://github.com/rohitg00/ai-engineering-from-scratch) | ✅ 是 | Learn AI Engineering! Learn it. Build it. Ship it for others. |
 | [**alibaba/open-code-review**](https://github.com/alibaba/open-code-review) | ✅ 是 | Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible. |
-| [**stablyai/orca**](https://github.com/stablyai/orca) | ✅ 是 | Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime. |
+| [**stablyai/orca**](https://github.com/stablyai/orca) | ✅ 是 | Orca is the place for working with a fleet of coding agents (e.g. Claude Code, Codex). Run any agent with your own subscription. Available on desktop, mobile and remote runtime. |
 | [**dickwu/apple-design-skill**](https://github.com/dickwu/apple-design-skill) | ✅ 是 | Cross-platform UI/UX design reviewer based on Apple HIG. Works with Flutter, Tauri, Electron, React Native. Compatible with Claude Code, Cursor, Codex. |
 | [**simular-ai/Agent-S**](https://github.com/simular-ai/Agent-S) | ✅ 是 | Agent S: the state-of-the-art open source computer use agents |
 | [**CoplayDev/unity-mcp**](https://github.com/CoplayDev/unity-mcp) | ✅ 是 | Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity. |
