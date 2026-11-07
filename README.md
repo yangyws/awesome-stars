@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-194-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-06-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-197-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-07-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -26,10 +26,10 @@
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (69)
-- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(31)`
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (72)
+- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(33)`
 - [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(15)`
-- [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(11)`
+- [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(12)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(12)`
 
 ### 📂 [🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)](#system-utilities-and-iot) (23)
@@ -239,6 +239,8 @@
 | [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | ✅ 是 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | ✅ 是 | OpenClaw AI 助理離線免安裝整合環境 |
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | ✅ 是 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
+| [**rtk-ai/rtk**](https://github.com/rtk-ai/rtk) | ✅ 是 | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
+| [**HKUDS/nanobot**](https://github.com/HKUDS/nanobot) | ✅ 是 | Your lightweight open-source personal agent. |
 | [**nightly-labs/openbot**](https://github.com/nightly-labs/openbot) | ✅ 是 | A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration. |
 | [**XiaoPuOuO/openchatx-mcp**](https://github.com/XiaoPuOuO/openchatx-mcp) | ✅ 是 | Turn ChatGPT into a local agent runtime. Operate your computer, use local tools, discover MCP servers, and delegate work to your own models through one MCP connection. |
 | [**HKUDS/CLI-Anything**](https://github.com/HKUDS/CLI-Anything) | ✅ 是 | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ |
@@ -300,6 +302,7 @@
 | [**Mininglamp-AI/Mano-P**](https://github.com/Mininglamp-AI/Mano-P) | ✅ 是 | 開源邊緣裝置視覺-語言-動作 (GUI-VLA) 操控模型 |
 | [**Edge0-AI/Edge0**](https://github.com/Edge0-AI/Edge0) | ✅ 是 | 邊緣端 AI 自動化與推論架構專案 |
 | [**ornith-ai/Ornith-1**](https://github.com/ornith-ai/Ornith-1) | ✅ 是 | 輕量化多模態邊緣推論模型專案 |
+| [**Arthur-Ficial/apfel**](https://github.com/Arthur-Ficial/apfel) | ✅ 是 | The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads. |
 | [**jasoncheng7115/jt-ipam**](https://github.com/jasoncheng7115/jt-ipam) | ✅ 是 | A self-hosted, integration-focused IPAM, independently developed with an operation flow familiar to phpIPAM users, deeply integrated with multiple DNS servers, LibreNMS, OPNsense, Proxmox VE, Wazuh, and a local LLM. |
 | [**andrew-waters/orchard**](https://github.com/andrew-waters/orchard) | ✅ 是 | The native UI for Apple Containers and (o)MLX sandboxes, written in swift as a replacement for docker desktop |
 | [**cactus-compute/cactus**](https://github.com/cactus-compute/cactus) | ✅ 是 | Sub-50mb agentic, voice and vision intelligence for consumer devices. |
