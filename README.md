@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-199-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-09-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-201-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-10-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -14,20 +14,20 @@
 
 ### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (5)
 
-### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (73)
+### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (74)
 - [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(16)`
 - [開源模擬器專案 (Emulators)](#emulators) `(20)`
 - [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(19)`
 - [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(11)`
-- [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(7)`
+- [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(8)`
 
 ### 📂 [📡 串流、遠端遙控與跨裝置協作 (Streaming & Remote Control)](#streaming-and-remote-control) (18)
 - [Moonlight & Sunshine 生態系](#moonlight-and-sunshine) `(6)`
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (72)
-- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(33)`
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (73)
+- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(34)`
 - [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(15)`
 - [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(12)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(12)`
@@ -167,6 +167,7 @@
 | [**OpenStickCommunity/GP2040-CE**](https://github.com/OpenStickCommunity/GP2040-CE) | ✅ 是 | 基於 RP2040 的開源多平台低延遲搖桿/格鬥手把韌體 |
 | [**sezanzeb/input-remapper**](https://github.com/sezanzeb/input-remapper) | ✅ 是 | Linux / 掌機裝置按鍵映射與巨集客製化工具 |
 | [**SplitScreen-Me/splitscreenme-nucleus**](https://github.com/SplitScreen-Me/splitscreenme-nucleus) | ✅ 是 | Nucleus Co-op 本地多人分割螢幕同樂多開管理工具 |
+| [**DM74164/TaskbarPopup**](https://github.com/DM74164/TaskbarPopup) | ✅ 是 | Windows 10/11 任务栏增强：窗口最大化时自动藏起任务栏、铺满整块屏幕；长按 Win 弹出液态玻璃风格的迷你任务栏。单个 exe，无需安装。 / Windows 10/11 taskbar enhancement: hides the taskbar when a window is maximized so it fills the screen; hold Win for a liquid-glass mini taskbar. Single exe, nothing to install. |
 | [**playportdev/playport**](https://github.com/playportdev/playport) | ✅ 是 | Playport runs Windows games, 64-bit and now 32-bit, on a stock, non-jailbroken iPhone. Install a game from your library onto the phone, pick up a controller and press Play. The game runs on the phone's own CPU and GPU: no PC, no cloud, no stream. |
 | [**distilledorion-sketch/Initial-D-Arcade-Stage-3-Reimagined**](https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Reimagined) | ✅ 是 | Fan-made Initial D Arcade Stage 3 project with Unity rendering, native gameplay, online battles, community times and replays. |
 
@@ -240,10 +241,11 @@
 | [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | ✅ 是 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | ✅ 是 | OpenClaw AI 助理離線免安裝整合環境 |
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | ✅ 是 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
+| [**ruvnet/ruflo**](https://github.com/ruvnet/ruflo) | ✅ 是 | 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated |
 | [**rtk-ai/rtk**](https://github.com/rtk-ai/rtk) | ✅ 是 | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
 | [**HKUDS/nanobot**](https://github.com/HKUDS/nanobot) | ✅ 是 | Your lightweight open-source personal agent. |
 | [**nightly-labs/openbot**](https://github.com/nightly-labs/openbot) | ✅ 是 | A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration. |
-| [**XiaoPuOuO/openchatx-mcp**](https://github.com/XiaoPuOuO/openchatx-mcp) | ✅ 是 | Turn ChatGPT into a local agent runtime. Operate your computer, use local tools, discover MCP servers, and delegate work to your own models through one MCP connection. |
+| [**WealthyV/openchatx-mcp**](https://github.com/WealthyV/openchatx-mcp) | ✅ 是 | Turn ChatGPT into a local agent runtime. Operate your computer, use local tools, discover MCP servers, and delegate work to your own models through one MCP connection. |
 | [**HKUDS/CLI-Anything**](https://github.com/HKUDS/CLI-Anything) | ✅ 是 | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ |
 | [**TauricResearch/TradingAgents**](https://github.com/TauricResearch/TradingAgents) | ✅ 是 | TradingAgents: Multi-Agents LLM Financial Trading Framework |
 | [**morluto/rea**](https://github.com/morluto/rea) | ✅ 是 | Reverse engineer anything with agents, from app behavior down to native binaries. |
