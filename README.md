@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-201-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-15-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-205-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-16-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -14,22 +14,22 @@
 
 ### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (5)
 
-### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (74)
+### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (76)
 - [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(16)`
 - [開源模擬器專案 (Emulators)](#emulators) `(20)`
-- [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(19)`
+- [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(20)`
 - [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(11)`
-- [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(8)`
+- [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(9)`
 
 ### 📂 [📡 串流、遠端遙控與跨裝置協作 (Streaming & Remote Control)](#streaming-and-remote-control) (18)
 - [Moonlight & Sunshine 生態系](#moonlight-and-sunshine) `(6)`
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (73)
-- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(34)`
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (76)
+- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(35)`
 - [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(15)`
-- [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(12)`
+- [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(14)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(12)`
 
 ### 📂 [🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)](#system-utilities-and-iot) (23)
@@ -134,6 +134,7 @@
 | [**igawa6/dusklight**](https://github.com/igawa6/dusklight) | ✅ 是 | Dusklight 移植專案之社群維護分支 |
 | [**huangqian8/SwitchScript**](https://github.com/huangqian8/SwitchScript) | ✅ 是 | 任天堂 Switch 大氣層客製化引導整合包產生指令碼 |
 | [**easyworld/hekate**](https://github.com/easyworld/hekate) | ✅ 是 | 任天堂 Switch 繁體/簡體中文圖形介面引導載入程式 (Hekate) |
+| [**Sanster/IOPaint**](https://github.com/Sanster/IOPaint) | ✅ 是 | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. |
 | [**wesbos/3d-model-anything**](https://github.com/wesbos/3d-model-anything) | ✅ 是 | Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser. |
 
 [⬆ 回到目錄導覽](#toc)
@@ -169,6 +170,7 @@
 | [**SplitScreen-Me/splitscreenme-nucleus**](https://github.com/SplitScreen-Me/splitscreenme-nucleus) | ✅ 是 | Nucleus Co-op 本地多人分割螢幕同樂多開管理工具 |
 | [**DM74164/TaskbarPopup**](https://github.com/DM74164/TaskbarPopup) | ✅ 是 | Windows 10/11 任务栏增强：窗口最大化时自动藏起任务栏、铺满整块屏幕；长按 Win 弹出液态玻璃风格的迷你任务栏。单个 exe，无需安装。 / Windows 10/11 taskbar enhancement: hides the taskbar when a window is maximized so it fills the screen; hold Win for a liquid-glass mini taskbar. Single exe, nothing to install. |
 | [**playportdev/playport**](https://github.com/playportdev/playport) | ✅ 是 | Playport runs Windows games, 64-bit and now 32-bit, on a stock, non-jailbroken iPhone. Install a game from your library onto the phone, pick up a controller and press Play. The game runs on the phone's own CPU and GPU: no PC, no cloud, no stream. |
+| [**HeyOkay/HaloBattery**](https://github.com/HeyOkay/HaloBattery) | ✅ 是 | Battery levels in the Windows tray - from mice, keyboards, headsets and controllers to health trackers and smart home devices. |
 | [**distilledorion-sketch/Initial-D-Arcade-Stage-3-Reimagined**](https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Reimagined) | ✅ 是 | Fan-made Initial D Arcade Stage 3 project with Unity rendering, native gameplay, online battles, community times and replays. |
 
 [⬆ 回到目錄導覽](#toc)
@@ -241,6 +243,7 @@
 | [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | ✅ 是 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | ❌ 否 | OpenClaw AI 助理離線免安裝整合環境 |
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | ✅ 是 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
+| [**AndrianLeah/ai-remove-lightcraft**](https://github.com/AndrianLeah/ai-remove-lightcraft) | ✅ 是 | Remove objects, people and reflections from photos with local AI, inside LightCraft and Chromaforge (unofficial plug-in) or on its own: SAM 3 selection, LaMa / RORem / FLUX Fill / Qwen-Image fills, generative fill and DAI reflection removal, written back into a RAW DNG or a copy of a JPEG, PNG, TIFF… |
 | [**ruvnet/ruflo**](https://github.com/ruvnet/ruflo) | ✅ 是 | 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated |
 | [**rtk-ai/rtk**](https://github.com/rtk-ai/rtk) | ✅ 是 | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
 | [**HKUDS/nanobot**](https://github.com/HKUDS/nanobot) | ✅ 是 | Your lightweight open-source personal agent. |
@@ -305,6 +308,8 @@
 | [**Mininglamp-AI/Mano-P**](https://github.com/Mininglamp-AI/Mano-P) | ✅ 是 | 開源邊緣裝置視覺-語言-動作 (GUI-VLA) 操控模型 |
 | [**Edge0-AI/Edge0**](https://github.com/Edge0-AI/Edge0) | ✅ 是 | 邊緣端 AI 自動化與推論架構專案 |
 | [**ornith-ai/Ornith-1**](https://github.com/ornith-ai/Ornith-1) | ✅ 是 | 輕量化多模態邊緣推論模型專案 |
+| [**john-rocky/lama-cleaner-iOS**](https://github.com/john-rocky/lama-cleaner-iOS) | ✅ 是 | iPhone/iPad version of lama cleaner |
+| [**wudijimao/Inpaint-iOS**](https://github.com/wudijimao/Inpaint-iOS) | ✅ 是 | A free and open-source inpainting app powered by coreml on iPhone / iPad / MacBook with M CPU. |
 | [**Arthur-Ficial/apfel**](https://github.com/Arthur-Ficial/apfel) | ✅ 是 | The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads. |
 | [**jasoncheng7115/jt-ipam**](https://github.com/jasoncheng7115/jt-ipam) | ✅ 是 | A self-hosted, integration-focused IPAM, independently developed with an operation flow familiar to phpIPAM users, deeply integrated with multiple DNS servers, LibreNMS, OPNsense, Proxmox VE, Wazuh, and a local LLM. |
 | [**andrew-waters/orchard**](https://github.com/andrew-waters/orchard) | ✅ 是 | The native UI for Apple Containers and (o)MLX sandboxes, written in swift as a replacement for docker desktop |
