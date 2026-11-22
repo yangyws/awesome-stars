@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-208-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-21-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-209-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-22-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -26,10 +26,10 @@
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (77)
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (78)
 - [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(36)`
 - [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(15)`
-- [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(14)`
+- [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(15)`
 - [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(12)`
 
 ### 📂 [🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)](#system-utilities-and-iot) (23)
@@ -101,7 +101,7 @@
 | [**ARMSX2/ARMSX3**](https://github.com/ARMSX2/ARMSX3) | ✅ 是 | RPCS3 (PS3 模擬器) 之 ARM64 Android 移植專案 |
 | [**rfandango/XenDroid**](https://github.com/rfandango/XenDroid) | ✅ 是 | XenDroid 模擬器相關核心與執行環境移植 |
 | [**Roberto-Nessy/OoT3D_Standalone_Free_Cam**](https://github.com/Roberto-Nessy/OoT3D_Standalone_Free_Cam) | ✅ 是 | 暫無描述 |
-| [**Eglantine-Community/Eglantine**](https://github.com/Eglantine-Community/Eglantine) | ✅ 是 | VERY experimental Nintendo Switch 2 emulator |
+| [**Eglantine-Community/Eglantine**](https://github.com/Eglantine-Community/Eglantine) | ✅ 是 | An experimental Switch 2 Emulator built for Windows, Linux and MacOS. |
 | [**phforner0/Xendroid-Plus**](https://github.com/phforner0/Xendroid-Plus) | ✅ 是 | Xendroid+ is an enhanced fork of Xendroid, built to advance Xbox 360 emulation on Android. It expands on the original project with a focus on better performance, broader game compatibility, improved graphics and audio, and a more polished user experience. |
 | [**EstebanPdN/starwing-3ds**](https://github.com/EstebanPdN/starwing-3ds) | ✅ 是 | Nintendo 3DS dual-screen port of Star Fox / Starwing (SNES), based on Starfox Enhanced. |
 | [**EstebanPdN/zelda-alttp-3ds**](https://github.com/EstebanPdN/zelda-alttp-3ds) | ✅ 是 | Nintendo 3DS dual-screen port of Zelda A Link to the Past based on zelda3 |
@@ -309,6 +309,7 @@
 | [**Mininglamp-AI/Mano-P**](https://github.com/Mininglamp-AI/Mano-P) | ✅ 是 | 開源邊緣裝置視覺-語言-動作 (GUI-VLA) 操控模型 |
 | [**Edge0-AI/Edge0**](https://github.com/Edge0-AI/Edge0) | ✅ 是 | 邊緣端 AI 自動化與推論架構專案 |
 | [**ornith-ai/Ornith-1**](https://github.com/ornith-ai/Ornith-1) | ✅ 是 | 輕量化多模態邊緣推論模型專案 |
+| [**hiyouga/LlamaFactory**](https://github.com/hiyouga/LlamaFactory) | ✅ 是 | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) |
 | [**john-rocky/lama-cleaner-iOS**](https://github.com/john-rocky/lama-cleaner-iOS) | ✅ 是 | iPhone/iPad version of lama cleaner |
 | [**wudijimao/Inpaint-iOS**](https://github.com/wudijimao/Inpaint-iOS) | ✅ 是 | A free and open-source inpainting app powered by coreml on iPhone / iPad / MacBook with M CPU. |
 | [**Arthur-Ficial/apfel**](https://github.com/Arthur-Ficial/apfel) | ✅ 是 | The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads. |
