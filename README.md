@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-211-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-23-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-214-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-24-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -26,11 +26,11 @@
 - [PlayStation / Xbox / 雲端串流](#console-and-cloud-streaming) `(9)`
 - [跨裝置控制與桌面協作 (Remote Desktop & Control)](#remote-desktop-and-control) `(3)`
 
-### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (80)
-- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(38)`
+### 📂 [🤖 AI 代理、邊緣運算與開發輔助 (AI Agents & LLM DevTools)](#ai-agents-and-llm-devtools) (83)
+- [AI 代理與 Harness 框架 (Agents & Harness)](#ai-agents-and-harness) `(40)`
 - [Token 優化、程式碼圖譜與 Skills](#token-optimization-and-skills) `(15)`
 - [邊緣 AI 與本地模型推論 (Edge AI & Local Inference)](#edge-ai-and-local-inference) `(15)`
-- [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(12)`
+- [文件解析、RAG 與情資視覺化 (Doc Scraping & Intelligence)](#doc-scraping-and-intelligence) `(13)`
 
 ### 📂 [🛠️ 系統優化、桌面工具與嵌入式 (System Utilities & IoT)](#system-utilities-and-iot) (23)
 - [作業系統優化與瘦身 (OS Optimizer & Debloat)](#os-optimizer-and-debloat) `(9)`
@@ -243,17 +243,19 @@
 | [**onyx-dot-app/onyx**](https://github.com/onyx-dot-app/onyx) | ✅ 是 | 企業級開源 AI 知識庫檢索與多模型對話平台 (原 Danswer) |
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | ❌ 否 | OpenClaw AI 助理離線免安裝整合環境 |
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | ✅ 是 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
+| [**EL4CTEO/fast-anything**](https://github.com/EL4CTEO/fast-anything) | ✅ 是 | Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. |
+| [**INK-Q/agy-fast**](https://github.com/INK-Q/agy-fast) | ✅ 是 | Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs. |
 | [**FoundationAgents/MetaGPT**](https://github.com/FoundationAgents/MetaGPT) | ✅ 是 | 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming |
 | [**lobehub/lobehub**](https://github.com/lobehub/lobehub) | ✅ 是 | 🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week. |
 | [**stormpanda/better-dual-screen-assistant**](https://github.com/stormpanda/better-dual-screen-assistant) | ✅ 是 | 暫無描述 |
-| [**AndrianLeah/ai-remove-lightcraft**](https://github.com/AndrianLeah/ai-remove-lightcraft) | ✅ 是 | Remove objects, people and reflections from photos with local AI, inside LightCraft and Chromaforge (unofficial plug-in) or on its own: SAM 3 selection, LaMa / RORem / FLUX Fill / Qwen-Image fills, generative fill and DAI reflection removal, written back into a RAW DNG or a copy of a JPEG, PNG, TIFF… |
+| [**AndrianLeah/ai-remove-lightcraft**](https://github.com/AndrianLeah/ai-remove-lightcraft) | ✅ 是 | Remove objects, people and reflections from photos with local AI, inside LightCraft and Chromaforge or on its own, written back into a RAW DNG |
 | [**ruvnet/ruflo**](https://github.com/ruvnet/ruflo) | ✅ 是 | 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated |
 | [**rtk-ai/rtk**](https://github.com/rtk-ai/rtk) | ✅ 是 | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
 | [**HKUDS/nanobot**](https://github.com/HKUDS/nanobot) | ✅ 是 | Your lightweight open-source personal agent. |
 | [**nightly-labs/openbot**](https://github.com/nightly-labs/openbot) | ✅ 是 | A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration. |
 | [**WealthyV/openchatx-mcp**](https://github.com/WealthyV/openchatx-mcp) | ✅ 是 | Turn ChatGPT into a local agent runtime. Operate your computer, use local tools, discover MCP servers, and delegate work to your own models through one MCP connection. |
 | [**HKUDS/CLI-Anything**](https://github.com/HKUDS/CLI-Anything) | ✅ 是 | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ |
-| [**TauricResearch/TradingAgents**](https://github.com/TauricResearch/TradingAgents) | ✅ 是 | TradingAgents: Multi-Agents LLM Financial Trading Framework |
+| [**TauricResearch/TradingAgents**](https://github.com/TauricResearch/TradingAgents) | ✅ 是 | TradingAgents: Towards Agentic Finance Research |
 | [**morluto/rea**](https://github.com/morluto/rea) | ✅ 是 | Reverse engineer anything with agents, from app behavior down to native binaries. |
 | [**mastercook777/Heimdall-AYN-Thor-Assistant**](https://github.com/mastercook777/Heimdall-AYN-Thor-Assistant) | ✅ 是 | An open-source lower-screen assistant for AYN Thor. |
 | [**mars-tw/anti-gambling-trader-tw**](https://github.com/mars-tw/anti-gambling-trader-tw) | ✅ 是 | 免費開源的投資反詐、交易統計與自動化交易程式工具：預設 PaperBroker，提供 14 種券商／交易所選項；交易紀錄分析在本機執行。 |
@@ -334,6 +336,7 @@
 | [**HKUDS/DeepTutor**](https://github.com/HKUDS/DeepTutor) | ✅ 是 | 香港大學開源終身個人化 AI 家教輔導系統 |
 | [**koala73/worldmonitor**](https://github.com/koala73/worldmonitor) | ✅ 是 | 即時全球地緣與情報監控儀表板 (WorldMonitor) |
 | [**bilawalsidhu/gods-eye-view**](https://github.com/bilawalsidhu/gods-eye-view) | ✅ 是 | 真實開源空間情報與 3D 地球衛星軌跡即時視覺化模擬器 |
+| [**sherlock-project/sherlock**](https://github.com/sherlock-project/sherlock) | ✅ 是 | Hunt down social media accounts by username across social networks |
 | [**hiroi-sora/Umi-OCR**](https://github.com/hiroi-sora/Umi-OCR) | ✅ 是 | OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。 |
 | [**alibaba/zvec**](https://github.com/alibaba/zvec) | ✅ 是 | A lightweight, lightning-fast, in-process vector database |
 | [**exelban/stats**](https://github.com/exelban/stats) | ✅ 是 | macOS system monitor in your menu bar |
