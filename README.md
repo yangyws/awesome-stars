@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
-[![Stars Count](https://img.shields.io/badge/Total%20Stars-217-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-26-green?style=for-the-badge)](https://github.com/yangyws)
+[![Stars Count](https://img.shields.io/badge/Total%20Stars-218-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-27-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -14,11 +14,11 @@
 
 ### 📂 [🇹🇼 掌機繁體中文化共存版 (Handheld Coexistence)](#chinese-coexistence) (5)
 
-### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (76)
+### 📂 [🎮 掌機遊戲、模擬器與硬體調校 (Handheld Gaming & Emulators)](#handheld-gaming-emulators) (77)
 - [掌機系統與前端啟動器 (Launchers & Frontends)](#handheld-launchers) `(16)`
 - [開源模擬器專案 (Emulators)](#emulators) `(20)`
 - [硬體調校、雙螢幕補丁與遊戲輔助 (Tweaks & Mods)](#tweaks-and-mods) `(20)`
-- [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(11)`
+- [Windows 轉譯與相容層 (Windows on ARM & Compatibility)](#windows-compatibility) `(12)`
 - [控制器與遊戲輸入周邊 (Controllers & Peripherals)](#controllers-and-peripherals) `(9)`
 
 ### 📂 [📡 串流、遠端遙控與跨裝置協作 (Streaming & Remote Control)](#streaming-and-remote-control) (18)
@@ -100,13 +100,13 @@
 | [**ARMSX2/ARMSX2**](https://github.com/ARMSX2/ARMSX2) | ✅ 是 | PlayStation 2 模擬器 ARM64 Android 移植專案 |
 | [**ARMSX2/ARMSX3**](https://github.com/ARMSX2/ARMSX3) | ✅ 是 | RPCS3 (PS3 模擬器) 之 ARM64 Android 移植專案 |
 | [**rfandango/XenDroid**](https://github.com/rfandango/XenDroid) | ✅ 是 | XenDroid 模擬器相關核心與執行環境移植 |
+| [**google-research/harness2**](https://github.com/google-research/harness2) | ✅ 是 | 暫無描述 |
 | [**Roberto-Nessy/OoT3D_Standalone_Free_Cam**](https://github.com/Roberto-Nessy/OoT3D_Standalone_Free_Cam) | ✅ 是 | 暫無描述 |
 | [**Eglantine-Community/Eglantine**](https://github.com/Eglantine-Community/Eglantine) | ✅ 是 | An experimental Switch 2 Emulator built for Windows, Linux and MacOS. |
 | [**phforner0/Xendroid-Plus**](https://github.com/phforner0/Xendroid-Plus) | ✅ 是 | Xendroid+ is an enhanced fork of Xendroid, built to advance Xbox 360 emulation on Android. It expands on the original project with a focus on better performance, broader game compatibility, improved graphics and audio, and a more polished user experience. |
 | [**EstebanPdN/starwing-3ds**](https://github.com/EstebanPdN/starwing-3ds) | ✅ 是 | Nintendo 3DS dual-screen port of Star Fox / Starwing (SNES), based on Starfox Enhanced. |
 | [**EstebanPdN/zelda-alttp-3ds**](https://github.com/EstebanPdN/zelda-alttp-3ds) | ✅ 是 | Nintendo 3DS dual-screen port of Zelda A Link to the Past based on zelda3 |
 | [**abduzeedo/mapc-engine**](https://github.com/abduzeedo/mapc-engine) | ✅ 是 | The open-source game-running core of MaPC: Wine engines, graphics backends, store integrations and the mapc CLI |
-| [**lidor30/pokedaisy**](https://github.com/lidor30/pokedaisy) | ✅ 是 | A Game Boy, Game Boy Color and GBA player for Android handhelds with two screens or one, with a live companion for Pokémon games and ROM hacks. |
 | [**nachoverdon/Dolphin-MMJR2**](https://github.com/nachoverdon/Dolphin-MMJR2) | ✅ 是 | Dolphin \|MMJR2\| is a Gamecube/Wii Emulator for Android devices; based on Dolphin Official dev source code. Hence, the aim is to get the newer features, fixes, updates of Dolphin Official BUT with the performance improvements  of Dolphin \|MMJR\| (work-in-progress) |
 
 [⬆ 回到目錄導覽](#toc)
@@ -149,6 +149,7 @@
 | [**brunodev85/winlator**](https://github.com/brunodev85/winlator) | ✅ 是 | 經典 Android 執行 Windows (x86_64) 應用程式與 PC 遊戲之轉譯容器 |
 | [**Producdevity/gamehub-lite**](https://github.com/Producdevity/gamehub-lite) | ✅ 是 | GameHub Lite 社群維護修改版，支援掌機遊戲啟動 |
 | [**The412Banner/BannerHub**](https://github.com/The412Banner/BannerHub) | ✅ 是 | GameHub ReVanced 增強版，擴展 GOG、Epic 支援與介面自訂 |
+| [**eugeniosegala/MAKO**](https://github.com/eugeniosegala/MAKO) | ✅ 是 | Next-generation, Vulkan-powered graphics layer for Linux gaming, bringing frame generation, scaling and more,  to Steam Deck, Steam Machine and desktop Linux. |
 | [**kuscholar/iDeck**](https://github.com/kuscholar/iDeck) | ✅ 是 | iDeck brings the Steam Big Picture experience to iOS |
 | [**fxgl/steamac**](https://github.com/fxgl/steamac) | ✅ 是 | Valve's official ARM64 SteamOS in a lightweight VM on Apple Silicon: libkrun + Venus + MoltenVK, controllers, CoreAudio sound |
 | [**KytyPS5/KytyPS5**](https://github.com/KytyPS5/KytyPS5) | ✅ 是 | PlayStation 5 translation layer for Windows, Linux and macOS |
@@ -244,7 +245,7 @@
 | [**dongsheng123132/u-claw**](https://github.com/dongsheng123132/u-claw) | ❌ 否 | OpenClaw AI 助理離線免安裝整合環境 |
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | ✅ 是 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
 | [**isair/jarvis**](https://github.com/isair/jarvis) | ✅ 是 | A 100% private and local AI assistant for your desktop. Always present, able to jump into conversations. Supports unlimited MCP tools and unlimited memory with self-learning. Free WisprFlow alternative with its dictation support. Runs on macOS, Windows and Linux. |
-| [**mjmirza/app-store-compliance**](https://github.com/mjmirza/app-store-compliance) | ✅ 是 | Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents. |
+| [**mjmirza/app-store-compliance**](https://github.com/mjmirza/app-store-compliance) | ✅ 是 | Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents. |
 | [**EL4CTEO/fast-anything**](https://github.com/EL4CTEO/fast-anything) | ✅ 是 | Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. |
 | [**INK-Q/agy-fast**](https://github.com/INK-Q/agy-fast) | ✅ 是 | Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs. |
 | [**FoundationAgents/MetaGPT**](https://github.com/FoundationAgents/MetaGPT) | ✅ 是 | 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming |
