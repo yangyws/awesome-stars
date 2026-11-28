@@ -1,7 +1,7 @@
 # 🌟 yangyws 的 GitHub 標記星號分類庫 (Awesome Stars)
 
 [![Stars Count](https://img.shields.io/badge/Total%20Stars-218-blue?style=for-the-badge&logo=github)](https://github.com/yangyws?tab=stars)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-27-green?style=for-the-badge)](https://github.com/yangyws)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-28-green?style=for-the-badge)](https://github.com/yangyws)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > 本儲存庫為 **@yangyws** 在 GitHub 上已標記星號（Starred）的優質開源專案全方位分類索引。
@@ -169,7 +169,7 @@
 | [**OpenStickCommunity/GP2040-CE**](https://github.com/OpenStickCommunity/GP2040-CE) | ✅ 是 | 基於 RP2040 的開源多平台低延遲搖桿/格鬥手把韌體 |
 | [**sezanzeb/input-remapper**](https://github.com/sezanzeb/input-remapper) | ✅ 是 | Linux / 掌機裝置按鍵映射與巨集客製化工具 |
 | [**SplitScreen-Me/splitscreenme-nucleus**](https://github.com/SplitScreen-Me/splitscreenme-nucleus) | ✅ 是 | Nucleus Co-op 本地多人分割螢幕同樂多開管理工具 |
-| [**DM74164/TaskbarPopup**](https://github.com/DM74164/TaskbarPopup) | ✅ 是 | Windows 10/11 任务栏增强：窗口最大化时自动藏起任务栏、铺满整块屏幕；长按 Win 弹出液态玻璃风格的迷你任务栏。单个 exe，无需安装。 / Windows 10/11 taskbar enhancement: hides the taskbar when a window is maximized so it fills the screen; hold Win for a liquid-glass mini taskbar. Single exe, nothing to install. |
+| [**DM74164/TaskbarPopup**](https://github.com/DM74164/TaskbarPopup) | ✅ 是 | Windows 10/11即用即走式任务栏：窗口最大化时自动藏起任务栏并铺满屏幕，使用按键快捷呼出迷你任务栏。Windows 10/11 Use-and-Go Taskbar: auto-hides and lets the window fill the screen whenever it's maximized; a hotkey instantly summons a mini taskbar. |
 | [**playportdev/playport**](https://github.com/playportdev/playport) | ✅ 是 | Playport runs Windows games, 64-bit and now 32-bit, on a stock, non-jailbroken iPhone. Install a game from your library onto the phone, pick up a controller and press Play. The game runs on the phone's own CPU and GPU: no PC, no cloud, no stream. |
 | [**HeyOkay/HaloBattery**](https://github.com/HeyOkay/HaloBattery) | ✅ 是 | Battery levels in the Windows tray - from mice, keyboards, headsets and controllers to health trackers and smart home devices. |
 | [**distilledorion-sketch/Initial-D-Arcade-Stage-3-Reimagined**](https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Reimagined) | ✅ 是 | Fan-made Initial D Arcade Stage 3 project with Unity rendering, native gameplay, online battles, community times and replays. |
@@ -246,7 +246,7 @@
 | [**shengyu-meng/ClawLibrary**](https://github.com/shengyu-meng/ClawLibrary) | ✅ 是 | 2D 像素遊戲風格的 AI 代理控制中心與視覺化介面 |
 | [**isair/jarvis**](https://github.com/isair/jarvis) | ✅ 是 | A 100% private and local AI assistant for your desktop. Always present, able to jump into conversations. Supports unlimited MCP tools and unlimited memory with self-learning. Free WisprFlow alternative with its dictation support. Runs on macOS, Windows and Linux. |
 | [**mjmirza/app-store-compliance**](https://github.com/mjmirza/app-store-compliance) | ✅ 是 | Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents. |
-| [**EL4CTEO/fast-anything**](https://github.com/EL4CTEO/fast-anything) | ✅ 是 | Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. |
+| [**EL4CTEO/fast-anything**](https://github.com/EL4CTEO/fast-anything) | ✅ 是 | Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R. |
 | [**INK-Q/agy-fast**](https://github.com/INK-Q/agy-fast) | ✅ 是 | Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs. |
 | [**FoundationAgents/MetaGPT**](https://github.com/FoundationAgents/MetaGPT) | ✅ 是 | 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming |
 | [**lobehub/lobehub**](https://github.com/lobehub/lobehub) | ✅ 是 | 🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week. |
